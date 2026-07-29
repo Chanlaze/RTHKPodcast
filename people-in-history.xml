@@ -6,14 +6,20 @@
     <language>zh-HK</language>
     <copyright>RTHK / archive source as hosted on GitLab</copyright>
     <description>RTHK 古今風雲人物 audio archive generated from the public GitLab MP3 repository.</description>
-    <lastBuildDate>Wed, 29 Jul 2026 06:50:30 +0000</lastBuildDate>
-    <pubDate>Wed, 29 Jul 2026 06:50:30 +0000</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 07:53:40 +0000</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 07:53:40 +0000</pubDate>
     <ttl>1440</ttl>
     <itunes:author>RTHK</itunes:author>
     <itunes:summary>RTHK 古今風雲人物 audio archive.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="History" />
-    <atom:link href="people-in-history.xml" rel="self" type="application/rss+xml" />
+    <itunes:image href="https://chanlaze.github.io/RTHKPodcast/people-in-history-cover.jpg" />
+    <image>
+      <url>https://chanlaze.github.io/RTHKPodcast/people-in-history-cover.jpg</url>
+      <title>古今風雲人物 People In History</title>
+      <link>https://chanlaze.github.io/RTHKPodcast</link>
+    </image>
+    <atom:link href="https://chanlaze.github.io/RTHKPodcast/people-in-history.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利瑪竇(七)</title>
       <description>利瑪竇(七)</description>

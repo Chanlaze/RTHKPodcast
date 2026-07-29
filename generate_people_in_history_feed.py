@@ -18,6 +18,10 @@ PROJECT_ENCODED = urllib.parse.quote(PROJECT, safe="")
 API_ROOT = f"https://gitlab.com/api/v4/projects/{PROJECT_ENCODED}"
 REPO_LINK = f"https://gitlab.com/{PROJECT}"
 OUTPUT = Path("people-in-history.xml")
+SITE_ROOT = "https://chanlaze.github.io/RTHKPodcast"
+ARTWORK_FILENAME = "people-in-history-cover.jpg"
+ARTWORK_URL = f"{SITE_ROOT}/{ARTWORK_FILENAME}"
+FEED_URL = f"{SITE_ROOT}/{OUTPUT.name}"
 
 ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
 ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
@@ -103,11 +107,16 @@ def build_feed(mp3_entries: list[dict[str, str]], branch: str) -> ET.ElementTree
     add_text(channel, "itunes:summary", "RTHK 古今風雲人物 audio archive.")
     add_text(channel, "itunes:explicit", "false")
     ET.SubElement(channel, "itunes:category", {"text": "History"})
+    ET.SubElement(channel, "itunes:image", {"href": ARTWORK_URL})
+    image = ET.SubElement(channel, "image")
+    add_text(image, "url", ARTWORK_URL)
+    add_text(image, "title", "古今風雲人物 People In History")
+    add_text(image, "link", SITE_ROOT)
     ET.SubElement(
         channel,
         "atom:link",
         {
-            "href": "people-in-history.xml",
+            "href": FEED_URL,
             "rel": "self",
             "type": "application/rss+xml",
         },
