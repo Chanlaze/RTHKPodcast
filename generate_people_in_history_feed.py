@@ -55,6 +55,21 @@ def parse_episode_date(title: str) -> datetime | None:
     return datetime.strptime(match.group(1), "%Y%m%d").replace(tzinfo=timezone.utc)
 
 
+def clean_episode_title(raw_title: str) -> str:
+    """Return titles like 維多利亞女王(七), dropping show name/date/subtitle."""
+    title = re.sub(r"^古今風雲人物\s+", "", raw_title).strip()
+    title = re.sub(r"^20\d{6}\s+", "", title).strip()
+    parts = title.split()
+
+    for index, part in enumerate(parts):
+        if re.fullmatch(r"[一二三四五六七八九十百]+", part):
+            subject = " ".join(parts[:index]).strip()
+            if subject:
+                return f"{subject}({part})"
+
+    return title
+
+
 def rfc2822(dt: datetime) -> str:
     return email.utils.format_datetime(dt)
 
@@ -105,8 +120,9 @@ def build_feed(mp3_entries: list[dict[str, str]], branch: str) -> ET.ElementTree
 
     for entry in sorted(mp3_entries, key=sort_key, reverse=True):
         path = entry["path"]
-        title = Path(path).stem
-        pub_date = parse_episode_date(title) or now
+        raw_title = Path(path).stem
+        title = clean_episode_title(raw_title)
+        pub_date = parse_episode_date(raw_title) or now
         encoded_path = "/".join(urllib.parse.quote(part) for part in path.split("/"))
         encoded_branch = urllib.parse.quote(branch, safe="")
         audio_url = f"https://gitlab.com/{PROJECT}/-/raw/{encoded_branch}/{encoded_path}"
