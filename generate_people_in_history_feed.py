@@ -17,7 +17,9 @@ PROJECT = "rthk-archive/people-in-history"
 PROJECT_ENCODED = urllib.parse.quote(PROJECT, safe="")
 API_ROOT = f"https://gitlab.com/api/v4/projects/{PROJECT_ENCODED}"
 REPO_LINK = f"https://gitlab.com/{PROJECT}"
+RTHK_PROGRAMME_URL = "https://www.rthk.hk/radio/radio1/programme/People"
 OUTPUT = Path("people-in-history.xml")
+LOCAL_EPISODES = Path("rthk-2026-episodes.json")
 SITE_ROOT = "https://chanlaze.github.io/RTHKPodcast"
 ARTWORK_FILENAME = "people-in-history-cover.jpg"
 ARTWORK_URL = f"{SITE_ROOT}/{ARTWORK_FILENAME}"
@@ -63,6 +65,11 @@ def clean_episode_title(raw_title: str) -> str:
     """Return titles like 維多利亞女王(七), dropping show name/date/subtitle."""
     title = re.sub(r"^古今風雲人物\s+", "", raw_title).strip()
     title = re.sub(r"^20\d{6}\s+", "", title).strip()
+    match = re.match(
+        r"^(.*?)\s*[\(（]([一二三四五六七八九十百]+)[\)）](?:[︰:：].*)?$", title
+    )
+    if match:
+        return f"{match.group(1).strip()}({match.group(2)})"
     parts = title.split()
 
     for index, part in enumerate(parts):
@@ -84,7 +91,17 @@ def add_text(parent: ET.Element, tag: str, text: str) -> ET.Element:
     return child
 
 
-def build_feed(mp3_entries: list[dict[str, str]], branch: str) -> ET.ElementTree:
+def load_local_episodes() -> list[dict[str, object]]:
+    if not LOCAL_EPISODES.exists():
+        return []
+    return json.loads(LOCAL_EPISODES.read_text(encoding="utf-8"))
+
+
+def build_feed(
+    mp3_entries: list[dict[str, str]],
+    branch: str,
+    local_episodes: list[dict[str, object]],
+) -> ET.ElementTree:
     now = datetime.now(timezone.utc)
     rss = ET.Element(
         "rss",
@@ -96,10 +113,14 @@ def build_feed(mp3_entries: list[dict[str, str]], branch: str) -> ET.ElementTree
     )
     channel = ET.SubElement(rss, "channel")
     add_text(channel, "title", "古今風雲人物 People In History")
-    add_text(channel, "link", REPO_LINK)
+    add_text(channel, "link", RTHK_PROGRAMME_URL)
     add_text(channel, "language", "zh-HK")
-    add_text(channel, "copyright", "RTHK / archive source as hosted on GitLab")
-    add_text(channel, "description", "RTHK 古今風雲人物 audio archive generated from the public GitLab MP3 repository.")
+    add_text(channel, "copyright", "RTHK / archive sources hosted on GitHub and GitLab")
+    add_text(
+        channel,
+        "description",
+        "RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.",
+    )
     add_text(channel, "lastBuildDate", rfc2822(now))
     add_text(channel, "pubDate", rfc2822(now))
     add_text(channel, "ttl", "1440")
@@ -127,18 +148,55 @@ def build_feed(mp3_entries: list[dict[str, str]], branch: str) -> ET.ElementTree
         dt = parse_episode_date(title)
         return ((dt.isoformat() if dt else ""), entry["path"])
 
-    for entry in sorted(mp3_entries, key=sort_key, reverse=True):
+    items: list[dict[str, object]] = []
+    local_dates = {str(episode["date"]).replace("-", "") for episode in local_episodes}
+    for entry in mp3_entries:
         path = entry["path"]
         raw_title = Path(path).stem
-        title = clean_episode_title(raw_title)
         pub_date = parse_episode_date(raw_title) or now
+        if pub_date.strftime("%Y%m%d") in local_dates:
+            continue
         encoded_path = "/".join(urllib.parse.quote(part) for part in path.split("/"))
         encoded_branch = urllib.parse.quote(branch, safe="")
         audio_url = f"https://gitlab.com/{PROJECT}/-/raw/{encoded_branch}/{encoded_path}"
+        items.append(
+            {
+                "title": clean_episode_title(raw_title),
+                "pub_date": pub_date,
+                "audio_url": audio_url,
+                "length": "0",
+                "type": "audio/mpeg",
+                "source_url": audio_url,
+            }
+        )
+
+    for episode in local_episodes:
+        pub_date = datetime.strptime(str(episode["date"]), "%Y-%m-%d").replace(
+            tzinfo=timezone.utc
+        )
+        audio_path = "/".join(
+            urllib.parse.quote(part) for part in str(episode["audio_path"]).split("/")
+        )
+        items.append(
+            {
+                "title": clean_episode_title(str(episode["title"])),
+                "pub_date": pub_date,
+                "audio_url": f"{SITE_ROOT}/{audio_path}",
+                "length": str(episode.get("length", 0)),
+                "type": "audio/mp4",
+                "source_url": str(episode["source_page"]),
+            }
+        )
+
+    for feed_item in sorted(items, key=lambda item: item["pub_date"], reverse=True):
+        title = str(feed_item["title"])
+        pub_date = feed_item["pub_date"]
+        audio_url = str(feed_item["audio_url"])
 
         item = ET.SubElement(channel, "item")
         add_text(item, "title", title)
         add_text(item, "description", title)
+        add_text(item, "link", str(feed_item["source_url"]))
         add_text(item, "pubDate", rfc2822(pub_date))
         add_text(item, "guid", audio_url).set("isPermaLink", "false")
         ET.SubElement(
@@ -146,8 +204,8 @@ def build_feed(mp3_entries: list[dict[str, str]], branch: str) -> ET.ElementTree
             "enclosure",
             {
                 "url": audio_url,
-                "length": "0",
-                "type": "audio/mpeg",
+                "length": str(feed_item["length"]),
+                "type": str(feed_item["type"]),
             },
         )
 
@@ -165,7 +223,8 @@ def main() -> None:
     if not mp3_entries:
         raise SystemExit("No MP3 files found in GitLab repository tree.")
     print(f"Found {len(mp3_entries)} MP3 files on branch {branch}")
-    feed = build_feed(mp3_entries, branch)
+    local_episodes = load_local_episodes()
+    feed = build_feed(mp3_entries, branch, local_episodes)
     feed.write(OUTPUT, encoding="utf-8", xml_declaration=True, short_empty_elements=True)
     print(f"Wrote {OUTPUT}")
 
