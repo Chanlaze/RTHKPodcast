@@ -48,12 +48,17 @@
 <body>
   <main>
     <h1>古今風雲人物 People In History</h1>
-    <p>Podcast RSS feed for iPhone Podcasts:</p>
+    <p>Recommended feed for the current 2026 programme:</p>
+    <p><a href="people-in-history-2026.xml">people-in-history-2026.xml</a></p>
+    <code id="feed-2026-url"></code>
+    <p>Complete historical archive:</p>
     <p><a href="people-in-history.xml">people-in-history.xml</a></p>
-    <code id="feed-url"></code>
+    <code id="archive-feed-url"></code>
   </main>
   <script>
-    document.getElementById("feed-url").textContent =
+    document.getElementById("feed-2026-url").textContent =
+      new URL("people-in-history-2026.xml", window.location.href).href;
+    document.getElementById("archive-feed-url").textContent =
       new URL("people-in-history.xml", window.location.href).href;
   </script>
 </body>

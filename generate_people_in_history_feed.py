@@ -19,11 +19,11 @@ API_ROOT = f"https://gitlab.com/api/v4/projects/{PROJECT_ENCODED}"
 REPO_LINK = f"https://gitlab.com/{PROJECT}"
 RTHK_PROGRAMME_URL = "https://www.rthk.hk/radio/radio1/programme/People"
 OUTPUT = Path("people-in-history.xml")
+OUTPUT_2026 = Path("people-in-history-2026.xml")
 LOCAL_EPISODES = Path("rthk-2026-episodes.json")
 SITE_ROOT = "https://chanlaze.github.io/RTHKPodcast"
 ARTWORK_FILENAME = "people-in-history-cover.jpg"
 ARTWORK_URL = f"{SITE_ROOT}/{ARTWORK_FILENAME}"
-FEED_URL = f"{SITE_ROOT}/{OUTPUT.name}"
 
 ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
 ET.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
@@ -102,6 +102,10 @@ def build_feed(
     mp3_entries: list[dict[str, str]],
     branch: str,
     local_episodes: list[dict[str, object]],
+    output: Path,
+    channel_title: str,
+    channel_description: str,
+    include_archive: bool,
 ) -> ET.ElementTree:
     now = datetime.now(timezone.utc)
     rss = ET.Element(
@@ -114,45 +118,40 @@ def build_feed(
         },
     )
     channel = ET.SubElement(rss, "channel")
-    add_text(channel, "title", "古今風雲人物 People In History")
+    add_text(channel, "title", channel_title)
     add_text(channel, "link", RTHK_PROGRAMME_URL)
     add_text(channel, "language", "zh-HK")
     add_text(channel, "copyright", "RTHK / archive sources hosted on GitHub and GitLab")
     add_text(
         channel,
         "description",
-        "RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.",
+        channel_description,
     )
     add_text(channel, "lastBuildDate", rfc2822(now))
     add_text(channel, "pubDate", rfc2822(now))
     add_text(channel, "ttl", "1440")
     add_text(channel, "itunes:author", "RTHK")
-    add_text(channel, "itunes:summary", "RTHK 古今風雲人物 audio archive.")
+    add_text(channel, "itunes:summary", channel_description)
     add_text(channel, "itunes:explicit", "false")
     ET.SubElement(channel, "itunes:category", {"text": "History"})
     ET.SubElement(channel, "itunes:image", {"href": ARTWORK_URL})
     image = ET.SubElement(channel, "image")
     add_text(image, "url", ARTWORK_URL)
-    add_text(image, "title", "古今風雲人物 People In History")
+    add_text(image, "title", channel_title)
     add_text(image, "link", SITE_ROOT)
     ET.SubElement(
         channel,
         "atom:link",
         {
-            "href": FEED_URL,
+            "href": f"{SITE_ROOT}/{output.name}",
             "rel": "self",
             "type": "application/rss+xml",
         },
     )
 
-    def sort_key(entry: dict[str, str]) -> tuple[str, str]:
-        title = Path(entry["path"]).stem
-        dt = parse_episode_date(title)
-        return ((dt.isoformat() if dt else ""), entry["path"])
-
     items: list[dict[str, object]] = []
     local_dates = {str(episode["date"]).replace("-", "") for episode in local_episodes}
-    for entry in mp3_entries:
+    for entry in mp3_entries if include_archive else []:
         path = entry["path"]
         raw_title = Path(path).stem
         pub_date = parse_episode_date(raw_title) or now
@@ -237,9 +236,30 @@ def main() -> None:
         raise SystemExit("No MP3 files found in GitLab repository tree.")
     print(f"Found {len(mp3_entries)} MP3 files on branch {branch}")
     local_episodes = load_local_episodes()
-    feed = build_feed(mp3_entries, branch, local_episodes)
+    feed = build_feed(
+        mp3_entries,
+        branch,
+        local_episodes,
+        OUTPUT,
+        "古今風雲人物 People In History",
+        "RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.",
+        True,
+    )
     feed.write(OUTPUT, encoding="utf-8", xml_declaration=True, short_empty_elements=True)
     print(f"Wrote {OUTPUT}")
+    feed_2026 = build_feed(
+        mp3_entries,
+        branch,
+        local_episodes,
+        OUTPUT_2026,
+        "古今風雲人物 2026",
+        "RTHK 古今風雲人物 2026 episodes with full titles, broadcast dates, and programme notes.",
+        False,
+    )
+    feed_2026.write(
+        OUTPUT_2026, encoding="utf-8", xml_declaration=True, short_empty_elements=True
+    )
+    print(f"Wrote {OUTPUT_2026}")
 
 
 if __name__ == "__main__":

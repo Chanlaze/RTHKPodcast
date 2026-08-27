@@ -6,11 +6,11 @@
     <language>zh-HK</language>
     <copyright>RTHK / archive sources hosted on GitHub and GitLab</copyright>
     <description>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</description>
-    <lastBuildDate>Thu, 27 Aug 2026 07:55:02 +0000</lastBuildDate>
-    <pubDate>Thu, 27 Aug 2026 07:55:02 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2026 09:01:49 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2026 09:01:49 +0000</pubDate>
     <ttl>1440</ttl>
     <itunes:author>RTHK</itunes:author>
-    <itunes:summary>RTHK 古今風雲人物 audio archive.</itunes:summary>
+    <itunes:summary>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="History" />
     <itunes:image href="https://chanlaze.github.io/RTHKPodcast/people-in-history-cover.jpg" />
