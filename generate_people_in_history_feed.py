@@ -26,6 +26,7 @@ ARTWORK_URL = f"{SITE_ROOT}/{ARTWORK_FILENAME}"
 FEED_URL = f"{SITE_ROOT}/{OUTPUT.name}"
 
 ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
+ET.register_namespace("dc", "http://purl.org/dc/elements/1.1/")
 ET.register_namespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
 
 
@@ -108,6 +109,7 @@ def build_feed(
         {
             "version": "2.0",
             "xmlns:atom": "http://www.w3.org/2005/Atom",
+            "xmlns:dc": "http://purl.org/dc/elements/1.1/",
             "xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
         },
     )
@@ -162,6 +164,9 @@ def build_feed(
         items.append(
             {
                 "title": clean_episode_title(raw_title),
+                "description": clean_episode_title(raw_title),
+                "summary": clean_episode_title(raw_title),
+                "date_iso": pub_date.date().isoformat(),
                 "pub_date": pub_date,
                 "audio_url": audio_url,
                 "length": "0",
@@ -179,7 +184,12 @@ def build_feed(
         )
         items.append(
             {
-                "title": clean_episode_title(str(episode["title"])),
+                "title": str(episode["title"]),
+                "description": (
+                    f"日期：{episode['date']}\n\n{episode.get('notes', '')}"
+                ).strip(),
+                "summary": str(episode.get("notes", "")),
+                "date_iso": str(episode["date"]),
                 "pub_date": pub_date,
                 "audio_url": f"{SITE_ROOT}/{audio_path}",
                 "length": str(episode.get("length", 0)),
@@ -195,9 +205,12 @@ def build_feed(
 
         item = ET.SubElement(channel, "item")
         add_text(item, "title", title)
-        add_text(item, "description", title)
+        add_text(item, "description", str(feed_item["description"]))
         add_text(item, "link", str(feed_item["source_url"]))
         add_text(item, "pubDate", rfc2822(pub_date))
+        add_text(item, "dc:date", str(feed_item["date_iso"]))
+        add_text(item, "itunes:title", title)
+        add_text(item, "itunes:summary", str(feed_item["summary"]))
         add_text(item, "guid", audio_url).set("isPermaLink", "false")
         ET.SubElement(
             item,

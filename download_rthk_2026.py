@@ -13,6 +13,7 @@ import time
 import urllib.parse
 import urllib.request
 from datetime import date, datetime
+from html.parser import HTMLParser
 from pathlib import Path
 
 
@@ -22,6 +23,20 @@ ARCHIVE_API = "https://www.rthk.hk/radio/catchUpByMonth"
 MEDIA_ROOT = "https://rthkaod2022.akamaized.net/m4a/radio/archive/radio1/People/m4a"
 OUTPUT_DIR = Path("audio") / str(YEAR)
 METADATA_PATH = Path(f"rthk-{YEAR}-episodes.json")
+
+
+class EpisodeMetaParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.values: dict[str, str] = {}
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "meta":
+            return
+        values = {key.lower(): value or "" for key, value in attrs}
+        name = values.get("name", "")
+        if name in {"description", "episodeName", "episodeDate"}:
+            self.values[name] = values.get("content", "").strip()
 
 
 def get_json(url: str) -> dict[str, object]:
@@ -41,6 +56,24 @@ def get_bytes(url: str, attempts: int = 3) -> bytes:
                 raise
             time.sleep(attempt)
     raise AssertionError("unreachable")
+
+
+def normalize_notes(raw_notes: str) -> str:
+    paragraphs = [line.strip(" \t\u3000") for line in raw_notes.splitlines()]
+    return "\n\n".join(paragraph for paragraph in paragraphs if paragraph)
+
+
+def fetch_episode_details(episode: dict[str, object]) -> dict[str, object]:
+    parser = EpisodeMetaParser()
+    parser.feed(get_bytes(str(episode["source_page"])).decode("utf-8"))
+    if parser.values.get("episodeName"):
+        episode["title"] = parser.values["episodeName"]
+    if parser.values.get("episodeDate"):
+        episode["date"] = datetime.strptime(
+            parser.values["episodeDate"], "%d/%m/%Y"
+        ).date().isoformat()
+    episode["notes"] = normalize_notes(parser.values.get("description", ""))
+    return episode
 
 
 def resolve_segments(master_url: str) -> list[str]:
@@ -82,7 +115,9 @@ def fetch_episodes() -> list[dict[str, object]]:
                 "audio_path": (OUTPUT_DIR / f"{date_key}.m4a").as_posix(),
             }
         )
-    return sorted(normalized, key=lambda item: str(item["date"]))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        enriched = list(executor.map(fetch_episode_details, normalized))
+    return sorted(enriched, key=lambda item: str(item["date"]))
 
 
 def find_ffmpeg() -> str:
