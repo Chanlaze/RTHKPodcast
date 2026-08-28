@@ -168,6 +168,7 @@ def build_feed(
                 "date_iso": pub_date.date().isoformat(),
                 "pub_date": pub_date,
                 "audio_url": audio_url,
+                "guid": audio_url,
                 "length": "0",
                 "type": "audio/mpeg",
                 "source_url": audio_url,
@@ -181,6 +182,7 @@ def build_feed(
         audio_path = "/".join(
             urllib.parse.quote(part) for part in str(episode["audio_path"]).split("/")
         )
+        legacy_guid = f"{SITE_ROOT}/audio/2026/{episode['date'].replace('-', '')}.m4a"
         items.append(
             {
                 "title": str(episode["title"]),
@@ -191,6 +193,7 @@ def build_feed(
                 "date_iso": str(episode["date"]),
                 "pub_date": pub_date,
                 "audio_url": f"{SITE_ROOT}/{audio_path}",
+                "guid": legacy_guid,
                 "length": str(episode.get("length", 0)),
                 "type": "audio/mp4",
                 "source_url": str(episode["source_page"]),
@@ -210,7 +213,7 @@ def build_feed(
         add_text(item, "dc:date", str(feed_item["date_iso"]))
         add_text(item, "itunes:title", title)
         add_text(item, "itunes:summary", str(feed_item["summary"]))
-        add_text(item, "guid", audio_url).set("isPermaLink", "false")
+        add_text(item, "guid", str(feed_item["guid"])).set("isPermaLink", "false")
         ET.SubElement(
             item,
             "enclosure",

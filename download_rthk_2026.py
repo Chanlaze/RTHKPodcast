@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -63,6 +64,16 @@ def normalize_notes(raw_notes: str) -> str:
     return "\n\n".join(paragraph for paragraph in paragraphs if paragraph)
 
 
+def safe_filename(title: str) -> str:
+    cleaned = re.sub(r'[<>:"/\\|?*\x00-\x1f]', "_", title).strip().rstrip(".")
+    return re.sub(r"\s+", " ", cleaned)
+
+
+def episode_audio_path(episode: dict[str, object]) -> Path:
+    date_key = str(episode["date"]).replace("-", "")
+    return OUTPUT_DIR / f"{date_key} {safe_filename(str(episode['title']))}.m4a"
+
+
 def fetch_episode_details(episode: dict[str, object]) -> dict[str, object]:
     parser = EpisodeMetaParser()
     parser.feed(get_bytes(str(episode["source_page"])).decode("utf-8"))
@@ -117,6 +128,8 @@ def fetch_episodes() -> list[dict[str, object]]:
         )
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         enriched = list(executor.map(fetch_episode_details, normalized))
+    for episode in enriched:
+        episode["audio_path"] = episode_audio_path(episode).as_posix()
     return sorted(enriched, key=lambda item: str(item["date"]))
 
 
@@ -137,6 +150,11 @@ def find_ffmpeg() -> str:
 
 def download_episode(ffmpeg: str, episode: dict[str, object], force: bool) -> None:
     output = Path(str(episode["audio_path"]))
+    legacy_output = OUTPUT_DIR / f"{str(episode['date']).replace('-', '')}.m4a"
+    if not output.exists() and legacy_output.exists():
+        output.parent.mkdir(parents=True, exist_ok=True)
+        legacy_output.replace(output)
+        print(f"Rename {legacy_output.name} -> {output.name}")
     if output.exists() and output.stat().st_size > 0 and not force:
         print(f"Skip {output.name} ({episode['title']})")
         return
