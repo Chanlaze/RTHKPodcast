@@ -19,7 +19,6 @@ API_ROOT = f"https://gitlab.com/api/v4/projects/{PROJECT_ENCODED}"
 REPO_LINK = f"https://gitlab.com/{PROJECT}"
 RTHK_PROGRAMME_URL = "https://www.rthk.hk/radio/radio1/programme/People"
 OUTPUT = Path("people-in-history.xml")
-OUTPUT_2026 = Path("people-in-history-2026.xml")
 LOCAL_EPISODES = Path("rthk-2026-episodes.json")
 SITE_ROOT = "https://chanlaze.github.io/RTHKPodcast"
 ARTWORK_FILENAME = "people-in-history-cover.jpg"
@@ -105,7 +104,6 @@ def build_feed(
     output: Path,
     channel_title: str,
     channel_description: str,
-    include_archive: bool,
 ) -> ET.ElementTree:
     now = datetime.now(timezone.utc)
     rss = ET.Element(
@@ -151,7 +149,7 @@ def build_feed(
 
     items: list[dict[str, object]] = []
     local_dates = {str(episode["date"]).replace("-", "") for episode in local_episodes}
-    for entry in mp3_entries if include_archive else []:
+    for entry in mp3_entries:
         path = entry["path"]
         raw_title = Path(path).stem
         pub_date = parse_episode_date(raw_title) or now
@@ -246,23 +244,9 @@ def main() -> None:
         OUTPUT,
         "古今風雲人物 People In History",
         "RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.",
-        True,
     )
     feed.write(OUTPUT, encoding="utf-8", xml_declaration=True, short_empty_elements=True)
     print(f"Wrote {OUTPUT}")
-    feed_2026 = build_feed(
-        mp3_entries,
-        branch,
-        local_episodes,
-        OUTPUT_2026,
-        "古今風雲人物 2026",
-        "RTHK 古今風雲人物 2026 episodes with full titles, broadcast dates, and programme notes.",
-        False,
-    )
-    feed_2026.write(
-        OUTPUT_2026, encoding="utf-8", xml_declaration=True, short_empty_elements=True
-    )
-    print(f"Wrote {OUTPUT_2026}")
 
 
 if __name__ == "__main__":
