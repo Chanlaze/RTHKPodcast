@@ -189,6 +189,8 @@ def download_episode(ffmpeg: str, episode: dict[str, object], force: bool) -> No
     ]
     try:
         subprocess.run(command, check=True)
+        from trim_time_signal import trim_audio
+        trim_audio(ffmpeg, temporary)
         temporary.replace(output)
     finally:
         transport_stream.unlink(missing_ok=True)
