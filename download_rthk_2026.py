@@ -13,7 +13,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -74,6 +74,35 @@ def episode_audio_path(episode: dict[str, object]) -> Path:
     return OUTPUT_DIR / f"{date_key} {safe_filename(str(episode['title']))}.m4a"
 
 
+def has_complete_title(title: str) -> bool:
+    return bool(re.search(r"[\(（][一-鿿]+[\)）][︰:：].+", title))
+
+
+def merge_placeholder_episode_metadata(
+    episodes: list[dict[str, object]],
+) -> list[dict[str, object]]:
+    """Pair a Saturday audio record with RTHK's titled next-day placeholder."""
+    consumed: set[int] = set()
+    for index, episode in enumerate(episodes):
+        if str(episode["title"]).strip() == "古今風雲人物":
+            episode_date = date.fromisoformat(str(episode["date"]))
+            for candidate_index, candidate in enumerate(episodes):
+                if candidate_index == index or candidate_index in consumed:
+                    continue
+                candidate_date = date.fromisoformat(str(candidate["date"]))
+                if (
+                    candidate_date == episode_date + timedelta(days=1)
+                    and has_complete_title(str(candidate["title"]))
+                ):
+                    episode["id"] = candidate["id"]
+                    episode["title"] = candidate["title"]
+                    episode["source_page"] = candidate["source_page"]
+                    episode["notes"] = candidate.get("notes", "")
+                    consumed.add(candidate_index)
+                    break
+    return [episode for index, episode in enumerate(episodes) if index not in consumed]
+
+
 def fetch_episode_details(episode: dict[str, object]) -> dict[str, object]:
     parser = EpisodeMetaParser()
     parser.feed(get_bytes(str(episode["source_page"])).decode("utf-8"))
@@ -128,6 +157,7 @@ def fetch_episodes() -> list[dict[str, object]]:
         )
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         enriched = list(executor.map(fetch_episode_details, normalized))
+    enriched = merge_placeholder_episode_metadata(enriched)
     for episode in enriched:
         episode["audio_path"] = episode_audio_path(episode).as_posix()
     return sorted(enriched, key=lambda item: str(item["date"]))
@@ -151,6 +181,12 @@ def find_ffmpeg() -> str:
 def download_episode(ffmpeg: str, episode: dict[str, object], force: bool) -> None:
     output = Path(str(episode["audio_path"]))
     legacy_output = OUTPUT_DIR / f"{str(episode['date']).replace('-', '')}.m4a"
+    generic_output = OUTPUT_DIR / (
+        f"{str(episode['date']).replace('-', '')} 古今風雲人物.m4a"
+    )
+    if not output.exists() and generic_output.exists():
+        generic_output.replace(output)
+        print(f"Rename {generic_output.name} -> {output.name}")
     if not output.exists() and legacy_output.exists():
         output.parent.mkdir(parents=True, exist_ok=True)
         legacy_output.replace(output)
@@ -190,7 +226,7 @@ def download_episode(ffmpeg: str, episode: dict[str, object], force: bool) -> No
     try:
         subprocess.run(command, check=True)
         from trim_time_signal import trim_audio
-        trim_audio(ffmpeg, temporary)
+        trim_audio(ffmpeg, temporary, backup_name=output.name)
         temporary.replace(output)
     finally:
         transport_stream.unlink(missing_ok=True)

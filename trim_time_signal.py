@@ -39,11 +39,11 @@ def detect_cut(ffmpeg: str, path: Path) -> float | None:
     return float(candidates[0]) if len(candidates) == 1 and candidates[0] > 600 else None
 
 
-def trim_audio(ffmpeg: str, path: Path) -> float | None:
+def trim_audio(ffmpeg: str, path: Path, backup_name: str | None = None) -> float | None:
     cut = detect_cut(ffmpeg, path)
     if cut is None:
         return None
-    backup = Path('.tools/audio-originals') / path.name
+    backup = Path('.tools/audio-originals') / (backup_name or path.name)
     backup.parent.mkdir(parents=True, exist_ok=True)
     if not backup.exists():
         shutil.copy2(path, backup)
