@@ -85,7 +85,10 @@ def detect_prefix_cut(
     offset, score = find_reference_offset(search, reference)
     if score < MIN_PREFIX_CORRELATION:
         return None
-    return offset / PREFIX_SAMPLE_RATE
+    offset_seconds = offset / PREFIX_SAMPLE_RATE
+    # Sub-second offsets are encoder padding around an intro that already starts
+    # at the beginning; preserve the first packet instead of clipping it.
+    return 0.0 if offset_seconds < 1.0 else offset_seconds
 
 
 def detect_tail_cut(ffmpeg: str, path: Path) -> float | None:
