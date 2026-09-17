@@ -1,4 +1,4 @@
-"""Trim confirmed six-tone closing signals; retain originals locally."""
+"""Remove confirmed programme prefixes and closing signals; retain originals."""
 
 import json
 import re
@@ -11,7 +11,84 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / '.tools'))
 import numpy as np
 
 
-def detect_cut(ffmpeg: str, path: Path) -> float | None:
+INTRO_REFERENCE = Path('audio-reference/people-in-history-intro.m4a')
+PREFIX_SEARCH_SECONDS = 600
+PREFIX_SAMPLE_RATE = 2000
+MIN_PREFIX_CORRELATION = 0.70
+
+
+def decode_audio(
+    ffmpeg: str, path: Path, duration: float, sample_rate: int = PREFIX_SAMPLE_RATE
+) -> np.ndarray:
+    raw = subprocess.run(
+        [
+            ffmpeg,
+            '-v',
+            'error',
+            '-i',
+            str(path),
+            '-t',
+            str(duration),
+            '-ar',
+            str(sample_rate),
+            '-ac',
+            '1',
+            '-f',
+            'f32le',
+            '-',
+        ],
+        capture_output=True,
+        check=True,
+    ).stdout
+    return np.frombuffer(raw, dtype='<f4').astype(float)
+
+
+def find_reference_offset(search: np.ndarray, reference: np.ndarray) -> tuple[int, float]:
+    if len(reference) == 0 or len(search) < len(reference):
+        raise ValueError('Audio is shorter than the programme intro reference')
+
+    centered_reference = reference - reference.mean()
+    reference_energy = np.linalg.norm(centered_reference)
+    if reference_energy == 0:
+        raise ValueError('Programme intro reference is silent')
+
+    fft_size = 1 << (len(search) + len(reference) - 1).bit_length()
+    correlation = np.fft.irfft(
+        np.fft.rfft(search, fft_size)
+        * np.conj(np.fft.rfft(centered_reference, fft_size)),
+        fft_size,
+    )[: len(search) - len(reference) + 1]
+
+    cumulative = np.r_[0.0, np.cumsum(search)]
+    cumulative_squared = np.r_[0.0, np.cumsum(search * search)]
+    window = len(reference)
+    means = (cumulative[window:] - cumulative[:-window]) / window
+    energies = (
+        cumulative_squared[window:]
+        - cumulative_squared[:-window]
+        - window * means * means
+    )
+    scores = correlation / (
+        np.sqrt(np.maximum(energies, 1e-12)) * reference_energy
+    )
+    index = int(np.argmax(scores))
+    return index, float(scores[index])
+
+
+def detect_prefix_cut(
+    ffmpeg: str, path: Path, reference_path: Path = INTRO_REFERENCE
+) -> float | None:
+    if not reference_path.exists():
+        raise FileNotFoundError(f'Missing programme intro reference: {reference_path}')
+    reference = decode_audio(ffmpeg, reference_path, duration=30)
+    search = decode_audio(ffmpeg, path, duration=PREFIX_SEARCH_SECONDS)
+    offset, score = find_reference_offset(search, reference)
+    if score < MIN_PREFIX_CORRELATION:
+        return None
+    return offset / PREFIX_SAMPLE_RATE
+
+
+def detect_tail_cut(ffmpeg: str, path: Path) -> float | None:
     probe = subprocess.run([ffmpeg, '-hide_banner', '-i', str(path)], capture_output=True)
     match = re.search(rb'Duration: (\d+):(\d+):(\d+\.\d+)', probe.stderr)
     if not match:
@@ -39,25 +116,58 @@ def detect_cut(ffmpeg: str, path: Path) -> float | None:
     return float(candidates[0]) if len(candidates) == 1 and candidates[0] > 600 else None
 
 
-def trim_audio(ffmpeg: str, path: Path, backup_name: str | None = None) -> float | None:
-    cut = detect_cut(ffmpeg, path)
-    if cut is None:
-        return None
+def detect_cut(ffmpeg: str, path: Path) -> float | None:
+    """Backward-compatible alias for closing-signal detection."""
+    return detect_tail_cut(ffmpeg, path)
+
+
+def trim_audio(
+    ffmpeg: str, path: Path, backup_name: str | None = None
+) -> tuple[float, float]:
     backup = Path('.tools/audio-originals') / (backup_name or path.name)
     backup.parent.mkdir(parents=True, exist_ok=True)
     if not backup.exists():
         shutil.copy2(path, backup)
+
+    prefix_cut = detect_prefix_cut(ffmpeg, path)
+    tail_cut = detect_tail_cut(ffmpeg, path)
+    if prefix_cut is None:
+        raise ValueError(f'Programme intro was not detected: {path}')
+    if tail_cut is None:
+        raise ValueError(f'Closing time signal was not detected: {path}')
+    if tail_cut - prefix_cut < 600:
+        raise ValueError(f'Edited programme would be unexpectedly short: {path}')
+
     temporary = path.with_name(path.stem + '.trim.part.m4a')
     try:
-        subprocess.run([ffmpeg, '-v', 'error', '-i', str(path), '-t', f'{cut:.3f}',
-                        '-map', '0:a:0', '-c:a', 'copy', '-movflags', '+faststart',
-                        '-y', str(temporary)], check=True)
+        subprocess.run(
+            [
+                ffmpeg,
+                '-v',
+                'error',
+                '-ss',
+                f'{prefix_cut:.3f}',
+                '-i',
+                str(path),
+                '-t',
+                f'{tail_cut - prefix_cut:.3f}',
+                '-map',
+                '0:a:0',
+                '-c:a',
+                'copy',
+                '-movflags',
+                '+faststart',
+                '-y',
+                str(temporary),
+            ],
+            check=True,
+        )
         if temporary.stat().st_size == 0:
-            raise ValueError('Empty trimmed audio')
+            raise ValueError('Empty edited audio')
         temporary.replace(path)
     finally:
         temporary.unlink(missing_ok=True)
-    return cut
+    return prefix_cut, tail_cut
 
 
 if __name__ == '__main__':
@@ -67,8 +177,12 @@ if __name__ == '__main__':
     apply = '--apply' in sys.argv
     for episode in episodes:
         path = Path(episode['audio_path'])
-        cut = trim_audio(ffmpeg, path) if apply else detect_cut(ffmpeg, path)
-        print(episode['date'], 'cut', cut, flush=True)
+        cuts = (
+            trim_audio(ffmpeg, path)
+            if apply
+            else (detect_prefix_cut(ffmpeg, path), detect_tail_cut(ffmpeg, path))
+        )
+        print(episode['date'], 'cuts', cuts, flush=True)
         episode['length'] = path.stat().st_size
     if apply:
         METADATA_PATH.write_text(json.dumps(episodes, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')

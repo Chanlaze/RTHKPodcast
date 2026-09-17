@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from trim_time_signal import detect_cut, np
+from trim_time_signal import detect_cut, find_reference_offset, np
 
 
 class SignalTests(unittest.TestCase):
@@ -32,6 +32,23 @@ class SignalTests(unittest.TestCase):
 
     def test_silence_is_preserved(self):
         self.assertIsNone(self.detect([]))
+
+
+class PrefixTests(unittest.TestCase):
+    def test_finds_reference_offset(self):
+        rng = np.random.default_rng(12)
+        reference = rng.normal(size=200)
+        search = rng.normal(scale=0.05, size=1200)
+        search[437:637] += reference
+
+        offset, score = find_reference_offset(search, reference)
+
+        self.assertEqual(offset, 437)
+        self.assertGreater(score, 0.99)
+
+    def test_rejects_short_audio(self):
+        with self.assertRaisesRegex(ValueError, 'shorter'):
+            find_reference_offset(np.zeros(10), np.zeros(20))
 
 
 if __name__ == '__main__':
