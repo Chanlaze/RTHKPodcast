@@ -2,3 +2,4 @@
 __pycache__/
 *.part.m4a
 *.part.ts
+/audio/

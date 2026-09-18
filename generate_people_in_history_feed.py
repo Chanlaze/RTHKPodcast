@@ -21,6 +21,7 @@ RTHK_PROGRAMME_URL = "https://www.rthk.hk/radio/radio1/programme/People"
 OUTPUT = Path("people-in-history.xml")
 LOCAL_EPISODES = Path("rthk-2026-episodes.json")
 SITE_ROOT = "https://chanlaze.github.io/RTHKPodcast"
+AUDIO_ROOT = "https://gitlab.com/chanlaze-group/Chanlaze-project/-/raw/main"
 ARTWORK_FILENAME = "people-in-history-cover.jpg"
 ARTWORK_URL = f"{SITE_ROOT}/{ARTWORK_FILENAME}"
 
@@ -190,7 +191,7 @@ def build_feed(
                 "summary": str(episode.get("notes", "")),
                 "date_iso": str(episode["date"]),
                 "pub_date": pub_date,
-                "audio_url": f"{SITE_ROOT}/{audio_path}",
+                "audio_url": f"{AUDIO_ROOT}/{audio_path}",
                 "guid": legacy_guid,
                 "length": str(episode.get("length", 0)),
                 "type": "audio/mp4",

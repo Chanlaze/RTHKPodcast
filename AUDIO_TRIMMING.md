@@ -32,5 +32,24 @@ Trim confirmed matches and update enclosure lengths in the metadata:
 
 ```powershell
 python trim_time_signal.py --apply
+python publish_gitlab_audio.py
 python generate_people_in_history_feed.py
 ```
+
+## Audio hosting
+
+Podcast audio is published to the public GitLab repository
+`https://gitlab.com/chanlaze-group/Chanlaze-project` on branch `main`.
+The existing GitHub Pages feed URL and episode GUIDs remain unchanged.
+Original downloads stay in `.tools/audio-originals/` and are never uploaded.
+
+After downloading and validating a new edited episode, run
+`python publish_gitlab_audio.py` before generating or publishing the feed.
+This copies only catalogued files into `.tools/gitlab-audio`, commits and pushes
+them, then checks public ranged downloads, file sizes, and audio headers.
+Any failure must stop feed publication. Recheck without uploading with
+`python publish_gitlab_audio.py --verify-only`.
+
+Commit the metadata, feed, and source changes to GitHub, not new audio files.
+Existing GitHub audio remains available for podcast apps with cached old URLs.
+Do not delete or rewrite that history as part of a routine update.
