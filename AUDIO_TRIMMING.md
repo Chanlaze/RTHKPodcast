@@ -2,7 +2,9 @@
 
 New downloads are matched against the approved programme-intro reference in
 `audio-reference/people-in-history-intro.m4a`. Everything before that match is
-removed. The final seven minutes are also scanned for six approximately 1050 Hz
+removed. A slightly weaker match is accepted only within the first second,
+indicating that the recording already starts at the intro; in that case the
+beginning is preserved. The final seven minutes are also scanned for six approximately 1050 Hz
 tones, each 0.12-0.30 seconds long and spaced one second apart. Everything from
 the confirmed closing signal onward is removed.
 

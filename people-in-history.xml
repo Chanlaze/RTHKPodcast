@@ -6,8 +6,8 @@
     <language>zh-HK</language>
     <copyright>RTHK / archive sources hosted on GitHub and GitLab</copyright>
     <description>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</description>
-    <lastBuildDate>Fri, 18 Sep 2026 01:09:40 +0000</lastBuildDate>
-    <pubDate>Fri, 18 Sep 2026 01:09:40 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Sep 2026 05:33:11 +0000</lastBuildDate>
+    <pubDate>Sun, 20 Sep 2026 05:33:11 +0000</pubDate>
     <ttl>1440</ttl>
     <itunes:author>RTHK</itunes:author>
     <itunes:summary>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</itunes:summary>
@@ -21,6 +21,27 @@
     </image>
     <atom:link href="https://chanlaze.github.io/RTHKPodcast/people-in-history.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>伊本．巴圖達 (一)︰以雙腳丈量世界的穆斯林</title>
+      <description>日期：2026-09-19
+
+在十四世紀初的世界，蒙古帝國的餘威猶在。自成吉思汗以來的「蒙古治世」，打通了歐亞大陸的交通網絡，絲綢之路暢通無阻，商旅、使節、僧侶與冒險者得以在草原與沙漠間自由往來。在這個文化交流的黃金時代，北非摩洛哥城市丹吉爾中一位年輕穆斯林，用30年的時間，以雙腳丈量大地，走遍當時歐亞非大部分已知的文明國度；他的遊記記下了眼中璀璨的人文風景，成為珍貴史料。他的名字就是——伊本·巴圖達。
+
+伊本·巴圖達在1304年出身於法官世家，卻在21歲時毅然背起行囊，獨自踏上前往麥加的朝聖之路。這並非短途的宗教旅程，而是史詩的序章——三十年的漂泊，117,000公里的足跡，跨越北非、中東、東非、小亞細亞、金帳汗國、中亞、印度、馬爾代夫、東南亞、中國、西班牙及西非馬里帝國。
+
+他的《遊記》，為非洲腹地與伊斯蘭世界提供了獨特的第一手視角，卻也因記憶依賴與文學修飾而顯得不夠嚴謹。後世學者們因而爭論不休。但毋庸置疑的是，伊本·巴圖達的一生，不僅是旅行者的冒險，更是文明交會的史詩。</description>
+      <link>https://www.rthk.hk/radio/radio1/programme/People/episode/1128192</link>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:date>2026-09-19</dc:date>
+      <itunes:title>伊本．巴圖達 (一)︰以雙腳丈量世界的穆斯林</itunes:title>
+      <itunes:summary>在十四世紀初的世界，蒙古帝國的餘威猶在。自成吉思汗以來的「蒙古治世」，打通了歐亞大陸的交通網絡，絲綢之路暢通無阻，商旅、使節、僧侶與冒險者得以在草原與沙漠間自由往來。在這個文化交流的黃金時代，北非摩洛哥城市丹吉爾中一位年輕穆斯林，用30年的時間，以雙腳丈量大地，走遍當時歐亞非大部分已知的文明國度；他的遊記記下了眼中璀璨的人文風景，成為珍貴史料。他的名字就是——伊本·巴圖達。
+
+伊本·巴圖達在1304年出身於法官世家，卻在21歲時毅然背起行囊，獨自踏上前往麥加的朝聖之路。這並非短途的宗教旅程，而是史詩的序章——三十年的漂泊，117,000公里的足跡，跨越北非、中東、東非、小亞細亞、金帳汗國、中亞、印度、馬爾代夫、東南亞、中國、西班牙及西非馬里帝國。
+
+他的《遊記》，為非洲腹地與伊斯蘭世界提供了獨特的第一手視角，卻也因記憶依賴與文學修飾而顯得不夠嚴謹。後世學者們因而爭論不休。但毋庸置疑的是，伊本·巴圖達的一生，不僅是旅行者的冒險，更是文明交會的史詩。</itunes:summary>
+      <guid isPermaLink="false">https://chanlaze.github.io/RTHKPodcast/audio/2026/20260919.m4a</guid>
+      <enclosure url="https://gitlab.com/chanlaze-group/Chanlaze-project/-/raw/main/audio/2026/20260919%20%E4%BC%8A%E6%9C%AC%EF%BC%8E%E5%B7%B4%E5%9C%96%E9%81%94%20%28%E4%B8%80%29%EF%B8%B0%E4%BB%A5%E9%9B%99%E8%85%B3%E4%B8%88%E9%87%8F%E4%B8%96%E7%95%8C%E7%9A%84%E7%A9%86%E6%96%AF%E6%9E%97.m4a" length="10787296" type="audio/mp4" />
+    </item>
+    <item>
       <title>漢武帝 (十四)︰太子之死</title>
       <description>日期：2026-09-12
 
@@ -29,7 +50,7 @@
 幾個月後，征和二年（公元前92年）夏天，武帝在長安北方的甘泉宮避暑，身體不適，武帝因年老多疑，疑心有人以「蠱術」詛咒他，於是派江充到長安查究。江充到長安之後，稱宮中有蠱氣，到各處宮殿發掘，終於在太子宮掘出桐木做的人偶，準備向武帝告發。太子情急，向太子太傅石德求教，石德認為武帝在甘泉宮，生死未知，建議太子先發制人，派使者收捕江充等人。並以謀反罪名處死江充。太子又派人稟告衛皇后，調動皇后衛兵控制宮禁。江充被收捕時，宦官蘇文逃脫，趕往甘泉宮，向武帝控訴太子起兵反叛，武帝大怒，下令丞相劉屈氂率兵平亂。太子糾集長安城內市井少年數萬人，與丞相兵對抗，激戰五日，長安城血流成河，死者以萬計。太子戰敗，與家眷逃出長安，藏身湖縣（今潼關附近）民間友人家中。不久被發現，官兵搜捕，太子自盡。太子有三子一女，全部因巫蠱之禍而遇害，長子皇孫劉進，剛生兒子，未足百日，被投入獄中，得獄束丙吉義助，得以生存，名為「病已」，即後來之漢宣帝。太子生母衛皇后因太子叛亂而自殺。這次事變，史書稱為「巫蠱之禍」。
 
 巫蠱之禍發生之後幾個月，丞相劉屈氂被告發，與貳師將軍李廣利合謀，欲擁立劉</description>
-      <link>https://www.rthk.hk/radio/radio1/programme/People/episode/1125732</link>
+      <link>https://www.rthk.hk/radio/radio1/programme/People/episode/1126904</link>
       <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
       <dc:date>2026-09-12</dc:date>
       <itunes:title>漢武帝 (十四)︰太子之死</itunes:title>

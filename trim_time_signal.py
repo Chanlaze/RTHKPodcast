@@ -15,6 +15,7 @@ INTRO_REFERENCE = Path('audio-reference/people-in-history-intro.m4a')
 PREFIX_SEARCH_SECONDS = 600
 PREFIX_SAMPLE_RATE = 2000
 MIN_PREFIX_CORRELATION = 0.70
+MIN_START_CORRELATION = 0.50
 
 
 def decode_audio(
@@ -83,12 +84,12 @@ def detect_prefix_cut(
     reference = decode_audio(ffmpeg, reference_path, duration=30)
     search = decode_audio(ffmpeg, path, duration=PREFIX_SEARCH_SECONDS)
     offset, score = find_reference_offset(search, reference)
-    if score < MIN_PREFIX_CORRELATION:
-        return None
     offset_seconds = offset / PREFIX_SAMPLE_RATE
-    # Sub-second offsets are encoder padding around an intro that already starts
-    # at the beginning; preserve the first packet instead of clipping it.
-    return 0.0 if offset_seconds < 1.0 else offset_seconds
+    if offset_seconds < 1.0 and score >= MIN_START_CORRELATION:
+        # A recording already beginning with the intro can vary slightly from
+        # the reference. Preserve its first packet instead of clipping it.
+        return 0.0
+    return offset_seconds if score >= MIN_PREFIX_CORRELATION else None
 
 
 def detect_tail_cut(ffmpeg: str, path: Path) -> float | None:

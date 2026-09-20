@@ -1,9 +1,15 @@
 import unittest
 
-from download_rthk_2026 import merge_placeholder_episode_metadata
+from download_rthk_2026 import merge_placeholder_episode_metadata, normalize_title
 
 
 class PlaceholderMetadataTests(unittest.TestCase):
+    def test_normalizes_title_separator_spacing(self):
+        self.assertEqual(
+            normalize_title("伊本．巴圖達 (一) ︰ 以雙腳丈量世界的穆斯林"),
+            "伊本．巴圖達 (一)︰以雙腳丈量世界的穆斯林",
+        )
+
     def test_pairs_saturday_audio_with_titled_next_day_record(self):
         episodes = [
             {

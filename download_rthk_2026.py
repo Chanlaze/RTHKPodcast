@@ -64,6 +64,10 @@ def normalize_notes(raw_notes: str) -> str:
     return "\n\n".join(paragraph for paragraph in paragraphs if paragraph)
 
 
+def normalize_title(raw_title: str) -> str:
+    return re.sub(r"\s*([︰:：])\s*", r"\1", raw_title.strip())
+
+
 def safe_filename(title: str) -> str:
     cleaned = re.sub(r'[<>:"/\\|?*\x00-\x1f]', "_", title).strip().rstrip(".")
     return re.sub(r"\s+", " ", cleaned)
@@ -107,7 +111,7 @@ def fetch_episode_details(episode: dict[str, object]) -> dict[str, object]:
     parser = EpisodeMetaParser()
     parser.feed(get_bytes(str(episode["source_page"])).decode("utf-8"))
     if parser.values.get("episodeName"):
-        episode["title"] = parser.values["episodeName"]
+        episode["title"] = normalize_title(parser.values["episodeName"])
     if parser.values.get("episodeDate"):
         episode["date"] = datetime.strptime(
             parser.values["episodeDate"], "%d/%m/%Y"
@@ -149,7 +153,7 @@ def fetch_episodes() -> list[dict[str, object]]:
             {
                 "id": str(episode["id"]),
                 "date": episode_date.isoformat(),
-                "title": str(episode["title"]).strip(),
+                "title": normalize_title(str(episode["title"])),
                 "source_page": f"{PROGRAMME_URL}/episode/{episode['id']}",
                 "stream_url": f"{MEDIA_ROOT}/{date_key}.m4a/master.m3u8",
                 "audio_path": (OUTPUT_DIR / f"{date_key}.m4a").as_posix(),
@@ -230,6 +234,7 @@ def download_episode(ffmpeg: str, episode: dict[str, object], force: bool) -> No
         temporary.replace(output)
     finally:
         transport_stream.unlink(missing_ok=True)
+        temporary.unlink(missing_ok=True)
 
 
 def main() -> None:

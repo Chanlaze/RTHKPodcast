@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from trim_time_signal import detect_cut, find_reference_offset, np
+from trim_time_signal import detect_cut, detect_prefix_cut, find_reference_offset, np
 
 
 class SignalTests(unittest.TestCase):
@@ -49,6 +49,18 @@ class PrefixTests(unittest.TestCase):
     def test_rejects_short_audio(self):
         with self.assertRaisesRegex(ValueError, 'shorter'):
             find_reference_offset(np.zeros(10), np.zeros(20))
+
+    @patch('trim_time_signal.Path.exists', return_value=True)
+    @patch('trim_time_signal.decode_audio', side_effect=[np.ones(10), np.ones(20)])
+    @patch('trim_time_signal.find_reference_offset', return_value=(142, 0.56))
+    def test_accepts_weaker_intro_match_at_recording_start(self, *_):
+        self.assertEqual(detect_prefix_cut('ffmpeg', Path('sample.m4a')), 0.0)
+
+    @patch('trim_time_signal.Path.exists', return_value=True)
+    @patch('trim_time_signal.decode_audio', side_effect=[np.ones(10), np.ones(20)])
+    @patch('trim_time_signal.find_reference_offset', return_value=(4000, 0.56))
+    def test_rejects_weaker_intro_match_after_recording_start(self, *_):
+        self.assertIsNone(detect_prefix_cut('ffmpeg', Path('sample.m4a')))
 
 
 if __name__ == '__main__':
