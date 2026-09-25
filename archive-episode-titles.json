@@ -1,0 +1,3074 @@
+{
+  "source": "https://zh.wikipedia.org/wiki/古今風雲人物",
+  "titles": {
+    "2025/古今風雲人物 20251227 利瑪竇 七 結識湯顯祖.mp3": {
+      "title": "利瑪竇(七)︰結識湯顯祖",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251220 利瑪竇 六 定居韶州.mp3": {
+      "title": "利瑪竇(六)︰定居韶州",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251213 利瑪竇 五 肇慶僊花寺.mp3": {
+      "title": "利瑪竇(五)︰肇慶僊花寺",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251206 利瑪竇 四 學習中文.mp3": {
+      "title": "利瑪竇(四)︰學習中文",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251129 利瑪竇 三 澳門傳教士.mp3": {
+      "title": "利瑪竇(三)︰澳門傳教士",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251122 利瑪竇 二 耶穌會士.mp3": {
+      "title": "利瑪竇(二)︰耶穌會士",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251115 利瑪竇 一 東方傳教.mp3": {
+      "title": "利瑪竇(一)︰東方傳教",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251108 孫權 八 吳國滅亡.mp3": {
+      "title": "孫權(八)︰吳國滅亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251101 孫權 七 孫權稱帝.mp3": {
+      "title": "孫權(七)︰孫權稱帝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251025 孫權 六 赤壁之戰.mp3": {
+      "title": "孫權(六)︰赤壁之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251018 孫權 五 孫權繼業.mp3": {
+      "title": "孫權(五)︰孫權繼業",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251011 孫權 四 江東小霸王.mp3": {
+      "title": "孫權(四)︰孫氏崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20251004 孫權 三 孫氏崛起.mp3": {
+      "title": "孫權(三)︰江東小霸王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250927 孫權 二 兩漢楚文化.mp3": {
+      "title": "孫權(二)︰兩漢楚文化",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250920 孫權 一 江東.mp3": {
+      "title": "孫權(一)︰江東",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250913 奧斯曼帝國群英錄 十 籠中群像 瘋子 暴君與帝國的掙扎.mp3": {
+      "title": "奧斯曼帝國群英錄(十)︰籠中群像——瘋子、暴君與帝國的掙扎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250906 奧斯曼帝國群英錄 九 帷幕後的權力 許蕾姆女蘇丹.mp3": {
+      "title": "奧斯曼帝國群英錄(九)︰帷幕後的權力——許蕾姆女蘇丹",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250830 奧斯曼帝國群英錄 八 蘇萊曼大帝 立法者 許蕾姆與黃昏.mp3": {
+      "title": "奧斯曼帝國群英錄(八)︰蘇萊曼大帝——立法者、許蕾姆與黃昏",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250823 奧斯曼帝國群英錄 七 蘇萊曼大帝 輝煌的君臨.mp3": {
+      "title": "奧斯曼帝國群英錄(七)︰蘇萊曼大帝：輝煌的君臨",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250816 奧斯曼帝國群英錄 六 冷酷的哈里發 塞利姆一世與帝國的轉向.mp3": {
+      "title": "奧斯曼帝國群英錄(六)︰冷酷的哈里發——塞利姆一世與帝國的轉向",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250809 奧斯曼帝國群英錄 五 征服者 下 新羅馬的締造者.mp3": {
+      "title": "奧斯曼帝國群英錄(五)︰征服者（下）——新羅馬的締造者",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250802 奧斯曼帝國群英錄 四 征服者 上 圍攻君士坦丁堡.mp3": {
+      "title": "奧斯曼帝國群英錄(四)︰征服者（上）——圍攻君士坦丁堡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250726 奧斯曼帝國群英錄 三 雷霆與廢墟 巴耶濟德一世的崛起與覆亡.mp3": {
+      "title": "奧斯曼帝國群英錄(三)︰雷霆與廢墟——巴耶濟德一世的崛起與覆亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250719 奧斯曼帝國群英錄 二 橫渡海峽的帝國 從布爾薩到阿德里安堡.mp3": {
+      "title": "奧斯曼帝國群英錄(二)︰橫渡海峽的帝國——從布爾薩到阿德里安堡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250712 奧斯曼帝國群英錄 一 奧斯曼的黎明 夢境與利劍.mp3": {
+      "title": "奧斯曼帝國群英錄(一)︰奧斯曼的黎明——夢境與利劍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250705 左宗棠 十一 新疆建省.mp3": {
+      "title": "左宗棠(十一)︰新疆建省",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250628 左宗棠 十 收復伊犁.mp3": {
+      "title": "左宗棠(十)︰收復伊犁",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250621 左宗棠 九 西北回亂.mp3": {
+      "title": "左宗棠(九)︰西北回亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250614 左宗棠 八 鎮壓捻黨.mp3": {
+      "title": "左宗棠(八)︰鎮壓捻黨",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250607 左宗棠 七 收復杭州.mp3": {
+      "title": "左宗棠(七)︰收復杭州",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250531 左宗棠 六 英法聯軍.mp3": {
+      "title": "左宗棠(六)︰英法聯軍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250524 左宗棠 五 成立楚勇.mp3": {
+      "title": "左宗棠(五)︰成立楚勇",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250517 左宗棠 四 左季高出山.mp3": {
+      "title": "左宗棠(四)︰左季高出山",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250510 左宗棠 三 洪秀全起義.mp3": {
+      "title": "左宗棠(三)︰洪秀全起義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250503 左宗棠 二 名滿士林.mp3": {
+      "title": "左宗棠(二)︰名滿士林",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250426 左宗棠 一 湖南舉人.mp3": {
+      "title": "左宗棠(一)︰湖南舉人",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250419 王冠與十字架 亨利八世到查理一世 十 新秩序 共和理念的勝利.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(十)︰新秩序——共和理念的勝利",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250412 王冠與十字架 亨利八世到查理一世 九 風雲漸起 查理一世的統治初期.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(九)︰風雲漸起——查理一世的統治初期",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250405 王冠與十字架 亨利八世到查理一世 八 新王朝 詹姆士一世與政教衝突的序幕.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(八)︰新王朝——詹姆士一世與政教衝突的序幕",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250329 王冠與十字架 亨利八世到查理一世 七 議會興起 都鐸王朝的終結.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(七)︰議會興起——都鐸王朝的終結",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250322 王冠與十字架 亨利八世到查理一世 六 黃金時代 從宗教動盪到伊莉莎白時代.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(六)︰黃金時代——從宗教動盪到伊莉莎白時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250315 王冠與十字架 亨利八世到查理一世 五 舊教復辟 血腥瑪麗的宗教迫害.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(五)︰舊教復辟——血腥瑪麗的宗教迫害",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250308 王冠與十字架 亨利八世到查理一世 四 改革深化 亨利晚期的政局.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(四)︰改革深化——亨利晚期的政局",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250301 王冠與十字架 亨利八世到查理一世 三 火藥與權力 亨利八世時期的軍事改革與王權集中.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(三)︰火藥與權力——亨利八世時期的軍事改革與王權集中",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250222 王冠與十字架 亨利八世到查理一世 二 教會分裂 英格蘭教會的誕生.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(二)︰教會分裂——英格蘭教會的誕生",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250215 王冠與十字架 亨利八世到查理一世 一 動盪的王權 亨利八世的婚姻危機.mp3": {
+      "title": "王冠與十字架 亨利八世到查理一世(一)︰動盪的王權——亨利八世的婚姻危機",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250208 鄭成功 十二 鄭克塽降清.mp3": {
+      "title": "鄭成功(十二)︰鄭克塽降清",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250201 鄭成功 十一 鄭經繼位.mp3": {
+      "title": "鄭成功(十一)︰鄭經繼位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250125 鄭成功 十 收復台灣.mp3": {
+      "title": "鄭成功(十)︰收復台灣",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250118 鄭成功 九 三次北伐.mp3": {
+      "title": "鄭成功(九)︰三次北伐",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250111 鄭成功 八 台灣發展.mp3": {
+      "title": "鄭成功(八)︰台灣發展",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2025/古今風雲人物 20250104 鄭成功 七 壯大勢力.mp3": {
+      "title": "鄭成功(七)︰壯大勢力",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241228 鄭成功 六 孤臣抗清.mp3": {
+      "title": "鄭成功(六)︰孤臣抗清",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241221 鄭成功 五 南明黨爭.mp3": {
+      "title": "鄭成功(五)︰南明黨爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241214 鄭成功 四 明朝覆亡.mp3": {
+      "title": "鄭成功(四)︰明朝覆亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241207 鄭成功 三 海盜首領.mp3": {
+      "title": "鄭成功(三)︰海盜首領",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241130 鄭成功 二 鄭芝龍經商.mp3": {
+      "title": "鄭成功(二)︰鄭芝龍經商",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241123 鄭成功 一 明朝海盜.mp3": {
+      "title": "鄭成功(一)︰明朝海盜",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241116 莫臥兒帝國群英錄 十二 奧朗則布的政策與帝國的衰落.mp3": {
+      "title": "莫臥兒帝國群英錄(十二)︰奧朗則布的政策與帝國的衰落",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241109 莫臥兒帝國群英錄 十一 奧朗則布 帝國版圖的極限擴張.mp3": {
+      "title": "莫臥兒帝國群英錄(十一)︰朗則布——帝國版圖的極限擴張",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241102 莫臥兒帝國群英錄 十 沙賈汗 輝煌的建築.mp3": {
+      "title": "莫臥兒帝國群英錄(十)︰沙賈汗——輝煌的建築",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241026 莫臥兒帝國群英錄 九 沙賈汗時期 建築 藝術與文化的巔峰.mp3": {
+      "title": "莫臥兒帝國群英錄(九)︰沙賈汗時期——建築、藝術與文化的巔峰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241019 莫臥兒帝國群英錄 八 阿克巴晚期與繼承者賈漢吉爾.mp3": {
+      "title": "莫臥兒帝國群英錄(八)︰阿克巴晚期與繼承者賈漢吉爾",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241012 莫臥兒帝國群英錄 七 阿克巴的文化政策 多元共融的黃金時代.mp3": {
+      "title": "莫臥兒帝國群英錄(七)︰阿克巴的文化政策——多元共融的黃金時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20241005 莫臥兒帝國群英錄 六 阿克巴大帝 帝國的擴張與改革.mp3": {
+      "title": "莫臥兒帝國群英錄(六)︰阿克巴大帝——帝國的擴張與改革",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240928 莫臥兒帝國群英錄 五 莫臥兒帝國的誕生.mp3": {
+      "title": "莫臥兒帝國群英錄(五)︰莫臥兒帝國的誕生",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240921 莫臥兒帝國群英錄 四 巴布爾 中亞雄獅的崛起.mp3": {
+      "title": "莫臥兒帝國群英錄(四)︰巴布爾——中亞雄獅的崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240914 莫臥兒帝國群英錄 三 德里蘇丹國.mp3": {
+      "title": "莫臥兒帝國群英錄(三)︰德里蘇丹國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240907 莫臥兒帝國群英錄 二 印度的多元宗教格局.mp3": {
+      "title": "莫臥兒帝國群英錄(二)︰印度的多元宗教格局",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240831 莫臥兒帝國群英錄 一 文明的搖籃.mp3": {
+      "title": "莫臥兒帝國群英錄(一)︰文明的搖籃",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240824 包拯 五 包氏後裔.mp3": {
+      "title": "包拯(五)︰包氏後裔",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240817 包拯 四 開封府尹.mp3": {
+      "title": "包拯(四)︰開封府尹",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240810 包拯 三 監察御史.mp3": {
+      "title": "包拯(三)︰監察御史",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240803 包拯 二 出仕為官.mp3": {
+      "title": "包拯(二)︰出仕為官",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240727 包拯 一 北宋進士.mp3": {
+      "title": "包拯(一)︰北宋進士",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240720 達文西 九 達文西與米開朗基羅.mp3": {
+      "title": "達文西(九)︰達文西與米開朗基羅",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240713 達文西 八 蒙娜麗莎.mp3": {
+      "title": "達文西(八)︰《蒙娜麗莎》",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240706 達文西 七 最後的晚餐.mp3": {
+      "title": "達文西(七)︰《最後的晚餐》",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240629 達文西 六 米蘭時代.mp3": {
+      "title": "達文西(六)︰米蘭時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240622 達文西 五 帕齊陰謀.mp3": {
+      "title": "達文西(五)︰帕齊陰謀",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240615 達文西 四 嶄露頭角.mp3": {
+      "title": "達文西(四)︰嶄露頭角",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240608 達文西 三 奇才誕生.mp3": {
+      "title": "達文西(三)︰奇才誕生",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240601 達文西 二 意大利北部的經濟崛起.mp3": {
+      "title": "達文西(二)︰意大利北部的經濟崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240525 達文西 一 漫長的中世紀與文藝復興.mp3": {
+      "title": "達文西(一)︰漫長的中世紀與文藝復興",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240518 孔子 十 萬世師表.mp3": {
+      "title": "孔子(十)︰萬世師表",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240511 孔子 九 在陳絕糧.mp3": {
+      "title": "孔子(九)︰在陳絕糧",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240504 孔子 八 子畏於匡.mp3": {
+      "title": "孔子(八)︰子畏於匡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240427 孔子 七 子產相鄭.mp3": {
+      "title": "孔子(七)︰子產相鄭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240420 孔子 六 周遊列國.mp3": {
+      "title": "孔子(六)︰周遊列國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240413 孔子 五 魯國執政.mp3": {
+      "title": "孔子(五)︰魯國執政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240406 孔子 四 魯國之亂.mp3": {
+      "title": "孔子(四)︰魯國之亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240330 孔子 三 十有五而志於學.mp3": {
+      "title": "孔子(三)︰十有五而志於學",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240323 孔子 二 低下貴族.mp3": {
+      "title": "孔子(二)︰低下貴族",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240316 孔子 一 亂世春秋.mp3": {
+      "title": "孔子(一)︰亂世春秋",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240309 興宣大院君 十 朝鮮獨立與日韓合併.mp3": {
+      "title": "興宣大院君(十)︰朝鮮獨立與日韓合併",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240302 興宣大院君 九 東學黨之亂與甲午更張.mp3": {
+      "title": "興宣大院君(九)︰東學黨之亂與甲午更張",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240224 興宣大院君 八 東山再起與極速倒台.mp3": {
+      "title": "興宣大院君(八)︰東山再起與極速倒台",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240217 興宣大院君 七 江華條約 與甲申政變.mp3": {
+      "title": "興宣大院君(七)︰《江華條約》與甲申政變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240210 興宣大院君 六 閔妃冒起與朝鮮開國.mp3": {
+      "title": "興宣大院君(六)︰閔妃冒起與朝鮮開國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240203 興宣大院君 五 朝鮮的保守與開化.mp3": {
+      "title": "興宣大院君(五)︰朝鮮的保守與開化",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240127 興宣大院君 四 外力下的近代韓國.mp3": {
+      "title": "興宣大院君(四)︰外力下的近代韓國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240120 興宣大院君 三 大院君掌權與施政.mp3": {
+      "title": "興宣大院君(三)︰大院君掌權與施政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240113 興宣大院君 二 李氏朝鮮王朝.mp3": {
+      "title": "興宣大院君(二)︰李氏朝鮮王朝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2024/古今風雲人物 20240106 興宣大院君 一 朝鮮事大主義.mp3": {
+      "title": "興宣大院君(一)︰朝鮮事大主義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231230 明崇禎帝 十二 煤山自縊.mp3": {
+      "title": "明崇禎帝(十二)︰煤山自縊",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231223 明崇禎帝 十一 洪承疇降清.mp3": {
+      "title": "明崇禎帝(十一)︰洪承疇降清",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231216 明崇禎帝 十 闖王李自成.mp3": {
+      "title": "明崇禎帝(十)︰闖王李自成",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231209 明崇禎帝 九 陝西流寇.mp3": {
+      "title": "明崇禎帝(九)︰陝西流寇",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231202 明崇禎帝 八 誅殺袁崇煥.mp3": {
+      "title": "明崇禎帝(八)︰誅殺袁崇煥",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231125 明崇禎帝 七 崇禎繼位.mp3": {
+      "title": "明崇禎帝(七)︰崇禎繼位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231118 明崇禎帝 六 寧遠大捷.mp3": {
+      "title": "明崇禎帝(六)︰寧遠大捷",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231111 明崇禎帝 五 熊廷弼案.mp3": {
+      "title": "明崇禎帝(五)︰熊廷弼案",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231104 明崇禎帝 四 魏忠賢亂政.mp3": {
+      "title": "明崇禎帝(四)︰魏忠賢亂政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231028 明崇禎帝 三 明光宗猝逝.mp3": {
+      "title": "明崇禎帝(三)︰明光宗猝逝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231021 明崇禎帝 二 萬曆駕崩.mp3": {
+      "title": "明崇禎帝(二)︰萬曆駕崩",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231014 明崇禎帝 一 常洛皇五子.mp3": {
+      "title": "明崇禎帝(一)︰常洛皇五子",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20231007 卡斯特羅與哲古華拉 十二 去留肝膽兩崑崙.mp3": {
+      "title": "卡斯特羅與哲古華拉(十二)︰去留肝膽兩崑崙",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230930 卡斯特羅與哲古華拉 十一 帝國陰霾下的淨土.mp3": {
+      "title": "卡斯特羅與哲古華拉(十一)︰帝國陰霾下的淨土？",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230923 卡斯特羅與哲古華拉 十 哲古華拉喪命.mp3": {
+      "title": "卡斯特羅與哲古華拉(十)︰哲古華拉喪命",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230916 卡斯特羅與哲古華拉 九 投向蘇聯.mp3": {
+      "title": "卡斯特羅與哲古華拉(九)︰投向蘇聯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230909 卡斯特羅與哲古華拉 八 古巴革命成功.mp3": {
+      "title": "卡斯特羅與哲古華拉(八)︰古巴革命成功",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230902 卡斯特羅與哲古華拉 七 一個軍醫的自我革命.mp3": {
+      "title": "卡斯特羅與哲古華拉(七)︰一個軍醫的自我革命",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230826 卡斯特羅與哲古華拉 六 82人的革命軍.mp3": {
+      "title": "卡斯特羅與哲古華拉(六)︰82人的革命軍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230819 卡斯特羅與哲古華拉 五 在墨西哥結識的革命兄弟.mp3": {
+      "title": "卡斯特羅與哲古華拉(五)︰在墨西哥結識的革命兄弟",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230812 卡斯特羅與哲古華拉 四 開電單車的痲瘋病專家.mp3": {
+      "title": "卡斯特羅與哲古華拉(四)︰開電單車的痲瘋病專家",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230805 卡斯特羅與哲古華拉 三 超越階級的花花公子.mp3": {
+      "title": "卡斯特羅與哲古華拉(三)︰超越階級的花花公子",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230729 卡斯特羅與哲古華拉 二 拉丁美洲的民族獨立運動.mp3": {
+      "title": "卡斯特羅與哲古華拉(二)︰拉丁美洲的民族獨立運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230722 卡斯特羅與哲古華拉 一 跨越國界的革命情懷.mp3": {
+      "title": "卡斯特羅與哲古華拉(一)︰跨越國界的革命情懷",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230715 南越王趙佗 八 漢武帝攻越.mp3": {
+      "title": "南越王趙佗(八)︰漢武帝攻越",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230708 南越王趙佗 七 南方霸主.mp3": {
+      "title": "南越王趙佗(七)︰南方霸主",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230701 南越王趙佗 六 墓穴之謎.mp3": {
+      "title": "南越王趙佗(六)︰墓穴之謎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230624 南越王趙佗 五 南越武帝.mp3": {
+      "title": "南越王趙佗(五)︰南越武帝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230617 南越王趙佗 四 南越歸漢.mp3": {
+      "title": "南越王趙佗(四)︰南越歸漢",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230610 南越王趙佗 三 割據嶺南.mp3": {
+      "title": "南越王趙佗(三)︰割據嶺南",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230603 南越王趙佗 二 趙佗治三郡.mp3": {
+      "title": "南越王趙佗(二)︰趙佗治三郡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230527 南越王趙佗 一 秦始皇征越.mp3": {
+      "title": "南越王趙佗(一)︰秦始皇征越",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230520 豐臣秀吉 十一 秀次之死.mp3": {
+      "title": "豐臣秀吉(十一)︰秀次之死",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230513 豐臣秀吉 十 梟雄末路.mp3": {
+      "title": "豐臣秀吉(十)︰梟雄末路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230506 豐臣秀吉 九 文祿慶長之役.mp3": {
+      "title": "豐臣秀吉(九)︰文祿慶長之役",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230429 豐臣秀吉 八 入侵朝鮮.mp3": {
+      "title": "豐臣秀吉(八)︰入侵朝鮮",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230422 豐臣秀吉 七 秀吉掌權.mp3": {
+      "title": "豐臣秀吉(七)︰秀吉掌權",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230415 豐臣秀吉 六 本能寺之變.mp3": {
+      "title": "豐臣秀吉(六)︰本能寺之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230408 豐臣秀吉 五 火燒延曆寺.mp3": {
+      "title": "豐臣秀吉(五)︰火燒延曆寺",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230401 豐臣秀吉 四 桶狹間之戰.mp3": {
+      "title": "豐臣秀吉(四)︰桶狹間之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230325 豐臣秀吉 三 初遇伯樂.mp3": {
+      "title": "豐臣秀吉(三)︰初遇伯樂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230318 豐臣秀吉 二 少年藤吉郎.mp3": {
+      "title": "豐臣秀吉(二)︰少年藤吉郎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230311 豐臣秀吉 一 戰國時代.mp3": {
+      "title": "豐臣秀吉(一)︰戰國時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230304 宋徽宗 十二 南宋偏安.mp3": {
+      "title": "宋徽宗(十二)︰南宋偏安",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230225 宋徽宗 十一 客死金國.mp3": {
+      "title": "宋徽宗(十一)︰客死金國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230218 宋徽宗 十 靖康之變.mp3": {
+      "title": "宋徽宗(十)︰靖康之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230211 宋徽宗 九 欽宗即位.mp3": {
+      "title": "宋徽宗(九)︰欽宗即位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230204 宋徽宗 八 海上之盟.mp3": {
+      "title": "宋徽宗(八)︰海上之盟",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230128 宋徽宗 七 女真崛起.mp3": {
+      "title": "宋徽宗(七)︰女真崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230121 宋徽宗 六 方臘之亂.mp3": {
+      "title": "宋徽宗(六)︰方臘之亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230114 宋徽宗 五 花石綱.mp3": {
+      "title": "宋徽宗(五)︰花石綱",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2023/古今風雲人物 20230107 宋徽宗 四 徽宗親政.mp3": {
+      "title": "宋徽宗(四)︰徽宗親政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221231 宋徽宗 三 繼位登基.mp3": {
+      "title": "宋徽宗(三)︰繼位登基",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221224 宋徽宗 二 玩世皇弟.mp3": {
+      "title": "宋徽宗(二)︰玩世皇弟",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221217 宋徽宗 一 北宋黨爭.mp3": {
+      "title": "宋徽宗(一)︰北宋黨爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221210 阿拉伯的勞倫斯 六 君子協定.mp3": {
+      "title": "阿拉伯的勞倫斯(六)︰君子協定",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221203 阿拉伯的勞倫斯 五 鐵路遊擊.mp3": {
+      "title": "阿拉伯的勞倫斯(五)︰鐵路遊擊",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221126 阿拉伯的勞倫斯 四 中東起義.mp3": {
+      "title": "阿拉伯的勞倫斯(四)︰中東起義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221119 阿拉伯的勞倫斯 三 考古之行.mp3": {
+      "title": "阿拉伯的勞倫斯(三)︰考古之行",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221112 阿拉伯的勞倫斯 二 帝國落日.mp3": {
+      "title": "阿拉伯的勞倫斯(二)︰帝國落日",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221105 阿拉伯的勞倫斯 一 英雄身世.mp3": {
+      "title": "阿拉伯的勞倫斯(一)︰英雄身世",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221029 玄奘法師 十二 法師圓寂.mp3": {
+      "title": "玄奘法師(十二)︰法師圓寂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221022 玄奘法師 十一 譯經事業.mp3": {
+      "title": "玄奘法師(十一)︰譯經事業",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221015 玄奘法師 十 重歸故國.mp3": {
+      "title": "玄奘法師(十)︰重歸故國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221008 玄奘法師 九 曲女城法會.mp3": {
+      "title": "玄奘法師(九)︰曲女城法會",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20221001 玄奘法師 八 那爛陀寺.mp3": {
+      "title": "玄奘法師(八)︰那爛陀寺",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220924 玄奘法師 七 初到印度.mp3": {
+      "title": "玄奘法師(七)︰初到印度",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220917 玄奘法師 六 穿越西域.mp3": {
+      "title": "玄奘法師(六)︰穿越西域",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220910 玄奘法師 五 高昌國王.mp3": {
+      "title": "玄奘法師(五)︰高昌國王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220903 玄奘法師 四 偷渡西行.mp3": {
+      "title": "玄奘法師(四)︰偷渡西行",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220827 玄奘法師 三 國內遊學.mp3": {
+      "title": "玄奘法師(三)︰國內遊學",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220820 玄奘法師 二 少年出家.mp3": {
+      "title": "玄奘法師(二)︰少年出家",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220813 玄奘法師 一 玄奘身世.mp3": {
+      "title": "玄奘法師(一)︰玄奘身世",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220806 赫魯曉夫 十二 被迫下台.mp3": {
+      "title": "赫魯曉夫(十二)︰被迫下台",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220730 赫魯曉夫 十一 鞏固權力.mp3": {
+      "title": "赫魯曉夫(十一)︰鞏固權力",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220723 赫魯曉夫 十 東歐騷動.mp3": {
+      "title": "赫魯曉夫(十)︰東歐騷動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220716 赫魯曉夫 九 去史太林化.mp3": {
+      "title": "赫魯曉夫(九)︰去史太林化",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220709 赫魯曉夫 八 權力鬥爭.mp3": {
+      "title": "赫魯曉夫(八)︰權力鬥爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220702 赫魯曉夫 七 重建烏克蘭.mp3": {
+      "title": "赫魯曉夫(七)︰重建烏克蘭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220625 赫魯曉夫 六 二次大戰.mp3": {
+      "title": "赫魯曉夫(六)︰二次大戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220618 赫魯曉夫 五 肅反運動.mp3": {
+      "title": "赫魯曉夫(五)︰肅反運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220611 赫魯曉夫 四 晉身中央.mp3": {
+      "title": "赫魯曉夫(四)︰晉身中央",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220604 赫魯曉夫 三 基層幹部.mp3": {
+      "title": "赫魯曉夫(三)︰基層幹部",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220528 赫魯曉夫 二 從政參軍.mp3": {
+      "title": "赫魯曉夫(二)︰從政參軍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220521 赫魯曉夫 一 農民礦工.mp3": {
+      "title": "赫魯曉夫(一)︰農民礦工",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220514 劉邦項羽 十四 呂后誅韓信.mp3": {
+      "title": "劉邦項羽(十四)︰呂后誅韓信",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220507 劉邦項羽 十三 大漢統一.mp3": {
+      "title": "劉邦項羽(十三)︰大漢統一",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220430 劉邦項羽 十二 垓下之戰.mp3": {
+      "title": "劉邦項羽(十二)︰垓下之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220423 劉邦項羽 十一 楚漢相爭.mp3": {
+      "title": "劉邦項羽(十一)︰楚漢相爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220416 劉邦項羽 十 攻陷彭城.mp3": {
+      "title": "劉邦項羽(十)︰攻陷彭城",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220409 劉邦項羽 九 西楚霸王.mp3": {
+      "title": "劉邦項羽(九)︰西楚霸王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220402 劉邦項羽 八 鴻門宴.mp3": {
+      "title": "劉邦項羽(八)︰鴻門宴",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220326 劉邦項羽 七 鉅鹿之戰.mp3": {
+      "title": "劉邦項羽(七)︰鉅鹿之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220319 劉邦項羽 六 逐鹿關中.mp3": {
+      "title": "劉邦項羽(六)︰逐鹿關中",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220312 劉邦項羽 五 劉邦起兵.mp3": {
+      "title": "劉邦項羽(五)︰劉邦起兵",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220305 劉邦項羽 四 大澤鄉起義.mp3": {
+      "title": "劉邦項羽(四)︰大澤鄉起義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220226 劉邦項羽 三 項羽出身.mp3": {
+      "title": "劉邦項羽(三)︰項羽出身",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220219 劉邦項羽 二 呂后之謎.mp3": {
+      "title": "劉邦項羽(二)︰呂后之謎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220212 劉邦項羽 一 史記謎團.mp3": {
+      "title": "劉邦項羽(一)︰史記謎團",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220205 戴高樂 十四 五月風暴.mp3": {
+      "title": "戴高樂(十四)︰五月風暴",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220129 戴高樂 十三 殖民地獨立.mp3": {
+      "title": "戴高樂(十三)︰殖民地獨立",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220122 戴高樂 十二 辭任總理.mp3": {
+      "title": "戴高樂(十二)︰辭任總理",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220115 戴高樂 十一 光復巴黎.mp3": {
+      "title": "戴高樂(十一)︰光復巴黎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2022/古今風雲人物 20220101 戴高樂 十 自由法國.mp3": {
+      "title": "戴高樂(十)︰自由法國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211225 戴高樂 九 巴黎淪陷.mp3": {
+      "title": "戴高樂(九)︰巴黎淪陷",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211218 戴高樂 八 防禦德國.mp3": {
+      "title": "戴高樂(八)︰防禦德國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211211 戴高樂 七 軍隊改革.mp3": {
+      "title": "戴高樂(七)︰軍隊改革",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211204 戴高樂 六 民族主義.mp3": {
+      "title": "戴高樂(六)︰民族主義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211127 戴高樂 五 第一次世界大戰.mp3": {
+      "title": "戴高樂(五)︰第一次世界大戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211120 戴高樂 四 中法戰爭.mp3": {
+      "title": "戴高樂(四)︰中法戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211113 戴高樂 三 法蘭西第三共和.mp3": {
+      "title": "戴高樂(三)︰法蘭西第三共和",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211106 戴高樂 二 普法戰爭.mp3": {
+      "title": "戴高樂(二)︰普法戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211030 戴高樂 一 最偉大的法國人.mp3": {
+      "title": "戴高樂(一)︰最偉大的法國人",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211023 司馬光王安石 十 變法成敗.mp3": {
+      "title": "司馬光王安石(十)︰變法成敗",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211016 司馬光王安石 九 新舊黨爭.mp3": {
+      "title": "司馬光王安石(九)︰新舊黨爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20211002 司馬光王安石 八 資治通鑑.mp3": {
+      "title": "司馬光王安石(八)︰資治通鑑",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210925 司馬光王安石 七 王安石罷相.mp3": {
+      "title": "司馬光王安石(七)︰王安石罷相",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210918 司馬光王安石 六 熙寧變法.mp3": {
+      "title": "司馬光王安石(六)︰熙寧變法",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210911 司馬光王安石 五 王安石拜相.mp3": {
+      "title": "司馬光王安石(五)︰王安石拜相",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210904 司馬光王安石 四 王安石入京.mp3": {
+      "title": "司馬光王安石(四)︰王安石入京",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210828 司馬光王安石 三 濮議之爭.mp3": {
+      "title": "司馬光王安石(三)︰濮議之爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210821 司馬光王安石 二 英宗即位.mp3": {
+      "title": "司馬光王安石(二)︰英宗即位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210814 司馬光王安石 一 北宋積弊.mp3": {
+      "title": "司馬光王安石(一)︰北宋積弊",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210807 岸信介 十二 辭職下台.mp3": {
+      "title": "岸信介(十二)︰辭職下台",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210731 岸信介 十一 政治顛峰.mp3": {
+      "title": "岸信介(十一)︰政治顛峰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210724 岸信介 十 成為首相.mp3": {
+      "title": "岸信介(十)︰成為首相",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210717 岸信介 九 當選議員.mp3": {
+      "title": "岸信介(九)︰當選議員",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210710 岸信介 八 東山再起.mp3": {
+      "title": "岸信介(八)︰東山再起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210703 岸信介 七 甲級戰犯.mp3": {
+      "title": "岸信介(七)︰甲級戰犯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210626 岸信介 六 推倒東條.mp3": {
+      "title": "岸信介(六)︰推倒東條",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210619 岸信介 五 首度入閣.mp3": {
+      "title": "岸信介(五)︰首度入閣",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210612 岸信介 四 偽滿高官.mp3": {
+      "title": "岸信介(四)︰偽滿高官",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210605 岸信介 三 初入仕途.mp3": {
+      "title": "岸信介(三)︰初入仕途",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210529 岸信介 二 複雜家世.mp3": {
+      "title": "岸信介(二)︰複雜家世",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210522 岸信介 一 政治家族.mp3": {
+      "title": "岸信介(一)︰政治家族",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210515 南唐後主李煜 十二 後主亡國.mp3": {
+      "title": "南唐後主李煜(十二)︰後主亡國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210508 南唐後主李煜 十一 李煜繼位.mp3": {
+      "title": "南唐後主李煜(十一)︰李煜繼位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210501 南唐後主李煜 十 柴榮侵襲.mp3": {
+      "title": "南唐後主李煜(十)︰柴榮侵襲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210424 南唐後主李煜 九 南唐衰落.mp3": {
+      "title": "南唐後主李煜(九)︰南唐衰落",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210417 南唐後主李煜 八 興兵閩楚.mp3": {
+      "title": "南唐後主李煜(八)︰興兵閩楚",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210410 南唐後主李煜 七 中主繼位.mp3": {
+      "title": "南唐後主李煜(七)︰中主繼位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210403 南唐後主李煜 六 外敵環伺.mp3": {
+      "title": "南唐後主李煜(六)︰外敵環伺",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210327 南唐後主李煜 五 南唐建立.mp3": {
+      "title": "南唐後主李煜(五)︰南唐建立",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210320 南唐後主李煜 四 十國 割據.mp3": {
+      "title": "南唐後主李煜(四)︰「十國」割據",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210313 南唐後主李煜 三 爭奪運河.mp3": {
+      "title": "南唐後主李煜(三)︰爭奪運河",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210306 南唐後主李煜 二 江南禍亂.mp3": {
+      "title": "南唐後主李煜(二)︰江南禍亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210227 南唐後主李煜 一 五代十國.mp3": {
+      "title": "南唐後主李煜(一)︰五代十國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210220 哥倫布與麥哲倫 十 環遊世界.mp3": {
+      "title": "哥倫布與麥哲倫(十)︰環遊世界",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210213 哥倫布與麥哲倫 九 異地遇險.mp3": {
+      "title": "哥倫布與麥哲倫(九)︰異地遇險",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210206 哥倫布與麥哲倫 八 無人海域.mp3": {
+      "title": "哥倫布與麥哲倫(八)︰無人海域",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210130 哥倫布與麥哲倫 七 遠征亞洲.mp3": {
+      "title": "哥倫布與麥哲倫(七)︰遠征亞洲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210123 哥倫布與麥哲倫 六 發現 太平洋.mp3": {
+      "title": "哥倫布與麥哲倫(六)︰發現「太平洋」",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210116 哥倫布與麥哲倫 五 印度航路.mp3": {
+      "title": "哥倫布與麥哲倫(五)︰印度航路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210109 哥倫布與麥哲倫 四 開拓殖民.mp3": {
+      "title": "哥倫布與麥哲倫(四)︰開拓殖民",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2021/古今風雲人物 20210102 哥倫布與麥哲倫 三 發現美洲.mp3": {
+      "title": "哥倫布與麥哲倫(三)︰發現美洲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201226 哥倫布與麥哲倫 二 東西航道.mp3": {
+      "title": "哥倫布與麥哲倫(二)︰東西航道",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201219 哥倫布與麥哲倫 一 航海發展.mp3": {
+      "title": "哥倫布與麥哲倫(一)︰航海發展",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201212 梁武帝 十二 梁朝滅亡.mp3": {
+      "title": "梁武帝(十二)︰梁朝滅亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201205 梁武帝 十一 侯景之亂.mp3": {
+      "title": "梁武帝(十一)︰侯景之亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201128 梁武帝 十 太子早逝.mp3": {
+      "title": "梁武帝(十)︰太子早逝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201121 梁武帝 九 政制改革.mp3": {
+      "title": "梁武帝(九)︰政制改革",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201114 梁武帝 八 皈依佛教.mp3": {
+      "title": "梁武帝(八)︰皈依佛教",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201107 梁武帝 七 推崇文教.mp3": {
+      "title": "梁武帝(七)︰推崇文教",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201031 梁武帝 六 蕭齊內鬥.mp3": {
+      "title": "梁武帝(六)︰蕭齊內鬥",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201024 梁武帝 五 蕭道成稱帝.mp3": {
+      "title": "梁武帝(五)︰蕭道成稱帝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201017 梁武帝 四 劉裕篡晉.mp3": {
+      "title": "梁武帝(四)︰劉裕篡晉",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201010 梁武帝 三 北府兵起.mp3": {
+      "title": "梁武帝(三)︰北府兵起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20201003 梁武帝 二 東晉偏安.mp3": {
+      "title": "梁武帝(二)︰東晉偏安",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200926 梁武帝 一 蘭陵蕭氏.mp3": {
+      "title": "梁武帝(一)︰蘭陵蕭氏",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200919 約翰 甘迺迪 十二 世紀之謎.mp3": {
+      "title": "約翰 甘迺迪(十二)︰世紀之謎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200912 約翰 甘迺迪 十一 遇刺身亡.mp3": {
+      "title": "約翰 甘迺迪(十一)︰遇刺身亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200905 約翰 甘迺迪 十 越南衝突.mp3": {
+      "title": "約翰 甘迺迪(十)︰越南衝突",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200829 約翰 甘迺迪 九 古巴導彈危機.mp3": {
+      "title": "約翰 甘迺迪(九)︰古巴導彈危機",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200822 約翰 甘迺迪 八 豬灣事件.mp3": {
+      "title": "約翰 甘迺迪(八)︰豬灣事件",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200815 約翰 甘迺迪 七 柏林危機.mp3": {
+      "title": "約翰 甘迺迪(七)︰柏林危機",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200808 約翰 甘迺迪 六 競選總統.mp3": {
+      "title": "約翰 甘迺迪(六)︰競選總統",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200801 約翰 甘迺迪 五 聲望日隆.mp3": {
+      "title": "約翰 甘迺迪(五)︰聲望日隆",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200725 約翰 甘迺迪 四 艾森豪執政.mp3": {
+      "title": "約翰 甘迺迪(四)︰艾森豪執政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200718 約翰 甘迺迪 三 麥卡錫主義.mp3": {
+      "title": "約翰 甘迺迪(三)︰麥卡錫主義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200711 約翰 甘迺迪 二 二戰時期的國際角力.mp3": {
+      "title": "約翰 甘迺迪(二)︰二戰時期的國際角力",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200704 約翰 甘迺迪 一 北美洲的愛爾蘭人.mp3": {
+      "title": "約翰 甘迺迪(一)︰北美洲的愛爾蘭人",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200627 中唐文豪 十二 甘露之變.mp3": {
+      "title": "中唐文豪(十二)︰甘露之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200620 中唐文豪 十一 牛李黨爭.mp3": {
+      "title": "中唐文豪(十一)︰牛李黨爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200613 中唐文豪 十 郭太后臨朝.mp3": {
+      "title": "中唐文豪(十)︰郭太后臨朝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200606 中唐文豪 九 藩鎮再叛.mp3": {
+      "title": "中唐文豪(九)︰藩鎮再叛",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200530 中唐文豪 八 元和中興.mp3": {
+      "title": "中唐文豪(八)︰元和中興",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200523 中唐文豪 七 平定淮西.mp3": {
+      "title": "中唐文豪(七)︰平定淮西",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200516 中唐文豪 六 武元衡案.mp3": {
+      "title": "中唐文豪(六)︰武元衡案",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200509 中唐文豪 五 永貞內禪.mp3": {
+      "title": "中唐文豪(五)︰永貞內禪",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200502 中唐文豪 四 元稹與崔鶯鶯.mp3": {
+      "title": "中唐文豪(四)︰元稹與崔鶯鶯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200425 中唐文豪 三 韓愈入仕.mp3": {
+      "title": "中唐文豪(三)︰韓愈入仕",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200418 中唐文豪 二 唐代科舉.mp3": {
+      "title": "中唐文豪(二)︰唐代科舉",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200411 中唐文豪 一 涇原兵變.mp3": {
+      "title": "中唐文豪(一)︰涇原兵變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200404 甘地 十四 印度獨立.mp3": {
+      "title": "甘地(十四)︰印度獨立",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200328 甘地 十三 退下前線.mp3": {
+      "title": "甘地(十三)︰退下前線",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200321 甘地 十二 西門委員會.mp3": {
+      "title": "甘地(十二)︰西門委員會",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200314 甘地 十一 土布運動.mp3": {
+      "title": "甘地(十一)︰土布運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200307 甘地 十 步入政壇.mp3": {
+      "title": "甘地(十)︰步入政壇",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200229 甘地 九 不合作運動.mp3": {
+      "title": "甘地(九)︰不合作運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200222 甘地 八 重歸印度.mp3": {
+      "title": "甘地(八)︰重歸印度",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200215 甘地 七 非暴力抗爭.mp3": {
+      "title": "甘地(七)︰非暴力抗爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200208 甘地 六 波耳戰爭.mp3": {
+      "title": "甘地(六)︰波耳戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200201 甘地 五 南非抗爭.mp3": {
+      "title": "甘地(五)︰南非抗爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200125 甘地 四 初到南非.mp3": {
+      "title": "甘地(四)︰初到南非",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200118 甘地 三 學成歸國.mp3": {
+      "title": "甘地(三)︰學成歸國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200111 甘地 二 赴英留學.mp3": {
+      "title": "甘地(二)︰赴英留學",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2020/古今風雲人物 20200104 甘地 一 種姓出身.mp3": {
+      "title": "甘地(一)︰種姓出身",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191228 吳三桂 十二 歷史評價.mp3": {
+      "title": "吳三桂(十二)︰歷史評價",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191221 吳三桂 十一 三藩之亂.mp3": {
+      "title": "吳三桂(十一)︰三藩之亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191214 吳三桂 十 平西王.mp3": {
+      "title": "吳三桂(十)︰平西王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191207 吳三桂 九 清兵入關.mp3": {
+      "title": "吳三桂(九)︰清兵入關",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191130 吳三桂 八 李自成入京.mp3": {
+      "title": "吳三桂(八)︰李自成入京",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191123 吳三桂 七 崇禎自縊.mp3": {
+      "title": "吳三桂(七)︰崇禎自縊",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191116 吳三桂 六 李自成稱王.mp3": {
+      "title": "吳三桂(六)︰李自成稱王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191109 吳三桂 五 松錦之戰.mp3": {
+      "title": "吳三桂(五)︰松錦之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191102 吳三桂 四 流寇四起.mp3": {
+      "title": "吳三桂(四)︰流寇四起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191026 吳三桂 三 皇太極侵明.mp3": {
+      "title": "吳三桂(三)︰皇太極侵明",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191019 吳三桂 二 抗擊後金.mp3": {
+      "title": "吳三桂(二)︰抗擊後金",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191012 吳三桂 一 明朝末年.mp3": {
+      "title": "吳三桂(一)︰明朝末年",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20191005 昭和天皇 十六 美國駐軍.mp3": {
+      "title": "昭和天皇(十六)︰美國駐軍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190928 昭和天皇 十五 日本投降.mp3": {
+      "title": "昭和天皇(十五)︰日本投降",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190921 昭和天皇 十四 二次大戰.mp3": {
+      "title": "昭和天皇(十四)︰二次大戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190914 昭和天皇 十三 蘆溝橋事變.mp3": {
+      "title": "昭和天皇(十三)︰蘆溝橋事變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190907 昭和天皇 十二 日本侵華.mp3": {
+      "title": "昭和天皇(十二)︰日本侵華",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190831 昭和天皇 十一 偽滿州國.mp3": {
+      "title": "昭和天皇(十一)︰偽滿州國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190824 昭和天皇 十 九一八事變.mp3": {
+      "title": "昭和天皇(十)︰九一八事變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190817 昭和天皇 九 二二六兵變.mp3": {
+      "title": "昭和天皇(九)︰二二六兵變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190810 昭和天皇 八 皇姑屯事件.mp3": {
+      "title": "昭和天皇(八)︰皇姑屯事件",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190803 昭和天皇 七 繼任天皇.mp3": {
+      "title": "昭和天皇(七)︰繼任天皇",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190727 昭和天皇 六 凡爾賽條約.mp3": {
+      "title": "昭和天皇(六)︰凡爾賽條約",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190720 昭和天皇 五 第一次世界大戰.mp3": {
+      "title": "昭和天皇(五)︰第一次世界大戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190713 昭和天皇 四 軍事擴張.mp3": {
+      "title": "昭和天皇(四)︰軍事擴張",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190706 昭和天皇 三 君主立憲.mp3": {
+      "title": "昭和天皇(三)︰君主立憲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190629 昭和天皇 二 明治維新.mp3": {
+      "title": "昭和天皇(二)︰明治維新",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190622 昭和天皇 一 日本崛起.mp3": {
+      "title": "昭和天皇(一)︰日本崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190615 蔡元培 八 晚年生活.mp3": {
+      "title": "蔡元培(八)︰晚年生活",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190608 蔡元培 七 五四運動.mp3": {
+      "title": "蔡元培(七)︰五四運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190601 蔡元培 六 北大校長.mp3": {
+      "title": "蔡元培(六)︰北大校長",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190525 蔡元培 五 教育總長.mp3": {
+      "title": "蔡元培(五)︰教育總長",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190518 蔡元培 四 投身革命.mp3": {
+      "title": "蔡元培(四)︰投身革命",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190511 蔡元培 三 棄官辦學.mp3": {
+      "title": "蔡元培(三)︰棄官辦學",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190504 蔡元培 二 高中科舉.mp3": {
+      "title": "蔡元培(二)︰高中科舉",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190427 蔡元培 一 學習八股.mp3": {
+      "title": "蔡元培(一)︰學習八股",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190420 漢光武帝 八 東漢外戚.mp3": {
+      "title": "漢光武帝(八)︰東漢外戚",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190413 漢光武帝 七 后位之爭.mp3": {
+      "title": "漢光武帝(七)︰后位之爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190406 漢光武帝 六 光武中興.mp3": {
+      "title": "漢光武帝(六)︰光武中興",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190330 漢光武帝 五 分封功臣.mp3": {
+      "title": "漢光武帝(五)︰分封功臣",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190323 漢光武帝 四 統一天下.mp3": {
+      "title": "漢光武帝(四)︰統一天下",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190316 漢光武帝 三 經略河北.mp3": {
+      "title": "漢光武帝(三)︰經略河北",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190309 漢光武帝 二 綠林兵起.mp3": {
+      "title": "漢光武帝(二)︰綠林兵起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190302 漢光武帝 一 新朝弊政.mp3": {
+      "title": "漢光武帝(一)︰新朝弊政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190223 凱撒大帝 八 含恨而亡.mp3": {
+      "title": "凱撒大帝(八)︰含恨而亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190216 凱撒大帝 七 終身獨裁.mp3": {
+      "title": "凱撒大帝(七)︰終身獨裁",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190209 凱撒大帝 六 埃及傳奇.mp3": {
+      "title": "凱撒大帝(六)︰埃及傳奇",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190202 凱撒大帝 五 出征高盧.mp3": {
+      "title": "凱撒大帝(五)︰出征高盧",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190126 凱撒大帝 四 首任執政官.mp3": {
+      "title": "凱撒大帝(四)︰首任執政官",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190119 凱撒大帝 三 青年時代.mp3": {
+      "title": "凱撒大帝(三)︰青年時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190112 凱撒大帝 二 寡頭誕生.mp3": {
+      "title": "凱撒大帝(二)︰寡頭誕生",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2019/古今風雲人物 20190105 凱撒大帝 一 羅馬文明.mp3": {
+      "title": "凱撒大帝(一)︰羅馬文明",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181229 司馬懿 十二 司馬炎篡魏.mp3": {
+      "title": "司馬懿(十二)︰司馬炎篡魏",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181222 司馬懿 十一 淮南三叛.mp3": {
+      "title": "司馬懿(十一)︰淮南三叛",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181215 司馬懿 十 高平陵之變.mp3": {
+      "title": "司馬懿(十)︰高平陵之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181208 司馬懿 九 內鬥曹爽.mp3": {
+      "title": "司馬懿(九)︰內鬥曹爽",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181201 司馬懿 八 智鬥諸葛亮.mp3": {
+      "title": "司馬懿(八)︰智鬥諸葛亮",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181124 司馬懿 七 坐鎮宛城.mp3": {
+      "title": "司馬懿(七)︰坐鎮宛城",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181117 司馬懿 六 曹丕篡漢.mp3": {
+      "title": "司馬懿(六)︰曹丕篡漢",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181110 司馬懿 五 曹操病逝.mp3": {
+      "title": "司馬懿(五)︰曹操病逝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181103 司馬懿 四 出仕曹操.mp3": {
+      "title": "司馬懿(四)︰出仕曹操",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181027 司馬懿 三 東漢末年.mp3": {
+      "title": "司馬懿(三)︰東漢末年",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181020 司馬懿 二 河內豪族.mp3": {
+      "title": "司馬懿(二)︰河內豪族",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181013 司馬懿 一 權謀祖師.mp3": {
+      "title": "司馬懿(一)︰權謀祖師",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20181006 戴卓爾夫人 十 逼宮與下台.mp3": {
+      "title": "戴卓爾夫人(十)︰逼宮與下台",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180929 戴卓爾夫人 九 外交風雲.mp3": {
+      "title": "戴卓爾夫人(九)︰外交風雲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180922 戴卓爾夫人 八 香港前途問題.mp3": {
+      "title": "戴卓爾夫人(八)︰香港前途問題",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180915 戴卓爾夫人 七 愛爾蘭問題.mp3": {
+      "title": "戴卓爾夫人(七)︰愛爾蘭問題",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180908 戴卓爾夫人 六 福克蘭戰爭.mp3": {
+      "title": "戴卓爾夫人(六)︰福克蘭戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180901 戴卓爾夫人 五 經濟鐵腕.mp3": {
+      "title": "戴卓爾夫人(五)︰經濟鐵腕",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180825 戴卓爾夫人 四 鐵娘子首任黨魁.mp3": {
+      "title": "戴卓爾夫人(四)︰鐵娘子首任黨魁",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180818 戴卓爾夫人 三 60年代的政治磨練.mp3": {
+      "title": "戴卓爾夫人(三)︰60年代的政治磨練",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180811 戴卓爾夫人 二 英國工黨與保守黨.mp3": {
+      "title": "戴卓爾夫人(二)︰英國工黨與保守黨",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180804 戴卓爾夫人 一 鐵娘子的成長背景.mp3": {
+      "title": "戴卓爾夫人(一)︰鐵娘子的成長背景",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180728 隋文帝隋煬帝 十 隋朝敗亡.mp3": {
+      "title": "隋文帝隋煬帝(十)︰隋朝敗亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180721 隋文帝隋煬帝 九 三征高麗.mp3": {
+      "title": "隋文帝隋煬帝(九)︰三征高麗",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180714 隋文帝隋煬帝 八 大隋帝國.mp3": {
+      "title": "隋文帝隋煬帝(八)︰大隋帝國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180707 隋文帝隋煬帝 七 煬帝繼位.mp3": {
+      "title": "隋文帝隋煬帝(七)︰煬帝繼位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180630 隋文帝隋煬帝 六 易儲問題.mp3": {
+      "title": "隋文帝隋煬帝(六)︰易儲問題",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180623 隋文帝隋煬帝 五 開皇之治.mp3": {
+      "title": "隋文帝隋煬帝(五)︰開皇之治",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180616 隋文帝隋煬帝 四 統一天下.mp3": {
+      "title": "隋文帝隋煬帝(四)︰統一天下",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180609 隋文帝隋煬帝 三 聖人可汗.mp3": {
+      "title": "隋文帝隋煬帝(三)︰聖人可汗",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180602 隋文帝隋煬帝 二 北周興亡.mp3": {
+      "title": "隋文帝隋煬帝(二)︰北周興亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180527 隋文帝隋煬帝 一 胡漢之間.mp3": {
+      "title": "隋文帝隋煬帝(一)︰胡、漢之間",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180519 喬治華盛頓 十 美國總統.mp3": {
+      "title": "喬治華盛頓(十)︰美國總統",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180512 喬治華盛頓 九 制訂憲法.mp3": {
+      "title": "喬治華盛頓(九)︰制訂憲法",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180505 喬治華盛頓 八 英軍敗走.mp3": {
+      "title": "喬治華盛頓(八)︰英軍敗走",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180428 喬治華盛頓 七 美國獨立戰爭.mp3": {
+      "title": "喬治華盛頓(七)︰美國獨立戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180421 喬治華盛頓 六 第一屆大陸會議.mp3": {
+      "title": "喬治華盛頓(六)︰第一屆大陸會議",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180414 喬治華盛頓 五 波士頓茶黨事件.mp3": {
+      "title": "喬治華盛頓(五)︰波士頓茶黨事件",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180407 喬治華盛頓 四 十三殖民地反英運動.mp3": {
+      "title": "喬治華盛頓(四)︰十三殖民地反英運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180331 喬治華盛頓 三 英法七年戰爭.mp3": {
+      "title": "喬治華盛頓(三)︰英法七年戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180324 喬治華盛頓 二 北美殖民地.mp3": {
+      "title": "喬治華盛頓(二)︰北美殖民地",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180317 喬治華盛頓 一 英國內戰.mp3": {
+      "title": "喬治華盛頓(一)︰英國內戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180310 萬曆帝 十二 萬曆以後.mp3": {
+      "title": "萬曆帝(十二)︰萬曆以後",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180303 萬曆帝 十一 薩爾滸之役.mp3": {
+      "title": "萬曆帝(十一)︰薩爾滸之役",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180224 萬曆帝 十 梃擊案.mp3": {
+      "title": "萬曆帝(十)︰梃擊案",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180217 萬曆帝 九 國本之爭.mp3": {
+      "title": "萬曆帝(九)︰國本之爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180210 萬曆帝 八 楊應龍之亂.mp3": {
+      "title": "萬曆帝(八)︰三大征之楊應龍之亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180203 萬曆帝 七 三大征之禦倭援朝.mp3": {
+      "title": "萬曆帝(七)︰三大征之禦倭援朝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180127 萬曆帝 六 三大征之寧夏之役.mp3": {
+      "title": "萬曆帝(六)︰三大征之寧夏之役",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180120 萬曆帝 五 北虜南倭.mp3": {
+      "title": "萬曆帝(五)︰北虜南倭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180113 萬曆帝 四 張居正之死.mp3": {
+      "title": "萬曆帝(四)︰張居正之死",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2018/古今風雲人物 20180106 萬曆帝 三 一條鞭法.mp3": {
+      "title": "萬曆帝(三)︰一條鞭法",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171230 萬曆帝 二 神宗繼位.mp3": {
+      "title": "萬曆帝(二)︰神宗繼位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171223 萬曆帝 一 明朝中葉.mp3": {
+      "title": "萬曆帝(一)︰明朝中葉",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171216 科爾 十 兩德統一.mp3": {
+      "title": "科爾(十)︰兩德統一",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171209 科爾 九 東德衰落.mp3": {
+      "title": "科爾(九)︰東德衰落",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171202 科爾 八 首相的荊棘.mp3": {
+      "title": "科爾(八)︰首相的荊棘",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171125 科爾 七 大聯盟.mp3": {
+      "title": "科爾(七)︰大聯盟",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171118 科爾 六 年輕的思潮.mp3": {
+      "title": "科爾(六)︰年輕的思潮",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171111 科爾 五 西德經濟奇蹟.mp3": {
+      "title": "科爾(五)︰西德經濟奇蹟",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171104 科爾 四 東西德國的對立.mp3": {
+      "title": "科爾(四)︰東西德國的對立",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171028 科爾 三 重建與復甦.mp3": {
+      "title": "科爾(三)︰重建與復甦",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171021 科爾 二 二戰下的德國.mp3": {
+      "title": "科爾(二)︰二戰下的德國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171014 科爾 一 德國的分裂與統一.mp3": {
+      "title": "科爾(一)︰德國的分裂與統一",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20171007 林則徐 八 晚年經歷.mp3": {
+      "title": "林則徐(八)︰晚年經歷",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170930 林則徐 七 南京條約.mp3": {
+      "title": "林則徐(七)︰南京條約",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170923 林則徐 六 鴉片戰爭.mp3": {
+      "title": "林則徐(六)︰鴉片戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170916 林則徐 五 虎門銷煙.mp3": {
+      "title": "林則徐(五)︰虎門銷煙",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170909 林則徐 四 禁煙與弛煙.mp3": {
+      "title": "林則徐(四)︰禁煙與弛煙",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170902 林則徐 三 販運鴉片.mp3": {
+      "title": "林則徐(三)︰販運鴉片",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170826 林則徐 二 一口通商.mp3": {
+      "title": "林則徐(二)︰一口通商",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170819 林則徐 一 清貧出身.mp3": {
+      "title": "林則徐(一)︰清貧出身",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170812 胡志明 十二 越戰中逝世.mp3": {
+      "title": "胡志明(十二)︰越戰中殞命",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170805 胡志明 十一 南北對峙.mp3": {
+      "title": "胡志明(十一)︰南北對峙",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170729 胡志明 十 奠邊府戰役.mp3": {
+      "title": "胡志明(十)︰奠邊府戰役",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170715 胡志明 九 越南民主共和國成立.mp3": {
+      "title": "胡志明(九)︰越南民主共和國成立",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170708 胡志明 八 越盟游擊隊.mp3": {
+      "title": "胡志明(八)︰越盟游擊隊",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170701 胡志明 七 囚禁香港.mp3": {
+      "title": "胡志明(七)︰囚禁香港",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170624 胡志明 六 安沛起義.mp3": {
+      "title": "胡志明(六)︰安沛起義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170617 胡志明 五 第三國際.mp3": {
+      "title": "胡志明(五)︰第三國際",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170610 胡志明 四 抗法運動.mp3": {
+      "title": "胡志明(四)︰抗法運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170603 胡志明 三 法國附庸.mp3": {
+      "title": "胡志明(三)︰法國附庸",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170527 胡志明 二 阮朝建立.mp3": {
+      "title": "胡志明(二)︰阮朝建立",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170520 胡志明 一 越南建國.mp3": {
+      "title": "胡志明(一)︰越南建國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170513 唐太宗 十 廢立太子.mp3": {
+      "title": "唐太宗(十)︰廢立太子",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170506 唐太宗 九 貞觀之治.mp3": {
+      "title": "唐太宗(九)︰貞觀之治",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170429 唐太宗 八 天可汗.mp3": {
+      "title": "唐太宗(八)︰天可汗",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170422 唐太宗 七 玄武門之變.mp3": {
+      "title": "唐太宗(七)︰玄武門之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170415 唐太宗 六 隋朝滅亡.mp3": {
+      "title": "唐太宗(六)︰隋朝滅亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170408 唐太宗 五 太原起兵.mp3": {
+      "title": "唐太宗(五)︰太原起兵",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170401 唐太宗 四 天下一統.mp3": {
+      "title": "唐太宗(四)︰天下一統",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170325 唐太宗 三 婚宦關係.mp3": {
+      "title": "唐太宗(三)︰婚宦關係",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170318 唐太宗 二 關隴集團.mp3": {
+      "title": "唐太宗(二)︰關隴集團",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170311 唐太宗 一 種族之謎.mp3": {
+      "title": "唐太宗(一)︰種族之謎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170304 彼德大帝 七 崛起的基石.mp3": {
+      "title": "彼德大帝(七)︰崛起的基石",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170225 彼德大帝 六 教育改革.mp3": {
+      "title": "彼德大帝(六)︰教育改革",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170218 彼得大帝 五 西化與反斯拉夫文化.mp3": {
+      "title": "彼得大帝(五)︰西化與反斯拉夫文化",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170211 彼德大帝 四 全面革新.mp3": {
+      "title": "彼德大帝(四)︰全面革新",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170204 彼德大帝 三 波爾塔瓦戰役.mp3": {
+      "title": "彼德大帝(三)︰波爾塔瓦戰役",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170128 彼德大帝 二 流放生涯.mp3": {
+      "title": "彼德大帝(二)︰流放生涯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170121 彼德大帝 一 俄羅斯羅曼諾夫王朝.mp3": {
+      "title": "彼德大帝(一)︰俄羅斯羅曼諾夫王朝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170114 蘇軾 十六 常州病逝.mp3": {
+      "title": "蘇軾(十六)︰常州病逝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2017/古今風雲人物 20170107 蘇軾 十五 遠貶嶺南.mp3": {
+      "title": "蘇軾(十五)︰遠貶嶺南",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161231 蘇軾 十四 重回杭州.mp3": {
+      "title": "蘇軾(十四)︰重返杭州",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161224 蘇軾 十三 舊黨回朝.mp3": {
+      "title": "蘇軾(十三)︰舊黨回朝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161217 蘇軾 十二 東坡居士.mp3": {
+      "title": "蘇軾(十二)︰東坡居士",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161210 蘇軾 十一 烏臺詩案.mp3": {
+      "title": "蘇軾(十一)︰烏臺詩案",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161203 蘇軾 十 曠世詞才.mp3": {
+      "title": "蘇軾(十)︰曠世詞才",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161126 蘇軾 九 杭州任官.mp3": {
+      "title": "蘇軾(九)︰杭州任官",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161119 蘇軾 八 新舊黨爭.mp3": {
+      "title": "蘇軾(八)︰新舊黨爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161112 蘇軾 七 熙寧變法.mp3": {
+      "title": "蘇軾(七)︰熙寧變法",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161105 蘇軾 六 濮議之爭.mp3": {
+      "title": "蘇軾(六)︰濮議之爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161029 蘇軾 五 出仕任官.mp3": {
+      "title": "蘇軾(五)︰出仕任官",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161022 蘇軾 四 慶曆新政.mp3": {
+      "title": "蘇軾(四)︰慶曆新政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161015 蘇軾 三 科舉改革.mp3": {
+      "title": "蘇軾(三)︰科舉改革",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161008 蘇軾 二 古文運動.mp3": {
+      "title": "蘇軾(二)︰古文運動",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20161001 蘇軾 一 北宋文臣.mp3": {
+      "title": "蘇軾(一)︰北宋文臣",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160924 馬可波羅 十 回歸威尼斯.mp3": {
+      "title": "馬可波羅(十)︰回歸威尼斯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160917 馬可波羅 九 遊記 中的南方城市與南宋滅亡.mp3": {
+      "title": "馬可波羅(九)︰《游記》中的南方城市與南宋滅亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160910 馬可波羅 八 遊記 中的元朝建築及宗教.mp3": {
+      "title": "馬可波羅(八)︰《游記》中的元朝建築及宗教",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160903 馬可波羅 七 遊記 中的元朝社會.mp3": {
+      "title": "馬可波羅(七)︰《游記》中的元朝社會",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160827 馬可波羅 六 八思巴與阿合馬.mp3": {
+      "title": "馬可波羅(六)︰八思巴與阿合馬",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160820 馬可波羅 五 教宗使者及蒙古帝國分裂.mp3": {
+      "title": "馬可波羅(五)︰教宗使者及蒙古帝國分裂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160813 馬可波羅 四 蒙古西征與東西文化交流.mp3": {
+      "title": "馬可波羅(四)︰蒙古西征與東西文化交流",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160806 馬可波羅 三 北方草原之路.mp3": {
+      "title": "馬可波羅(三)︰北方草原之路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160730 馬可波羅 二 古代絲綢之路.mp3": {
+      "title": "馬可波羅(二)︰古代絲綢之路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160723 馬可波羅 一 歷史疑點.mp3": {
+      "title": "馬可波羅(一)︰歷史疑點",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160716 王莽 十四 新朝覆亡.mp3": {
+      "title": "王莽(十四)︰新朝覆亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160709 王莽 十三 王莽篡漢.mp3": {
+      "title": "王莽(十三)︰王莽篡漢",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160702 王莽 十二 密謀篡位.mp3": {
+      "title": "王莽(十二)︰密謀篡位",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160625 王莽 十一 今古文經之爭.mp3": {
+      "title": "王莽(十一)︰今古文經之爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160618 王莽 十 王莽入朝.mp3": {
+      "title": "王莽(十)︰王莽入朝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160611 王莽 九 王氏掌權.mp3": {
+      "title": "王莽(九)︰王氏掌權",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160604 王莽 八 霍光之死與王氏崛起.mp3": {
+      "title": "王莽(八)︰霍光之死與王氏崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160528 王莽 七 霍光與昌邑王劉賀.mp3": {
+      "title": "王莽(七)︰霍光與昌邑王劉賀",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160521 王莽 六 霍光當權.mp3": {
+      "title": "王莽(六)︰霍光當權",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160514 王莽 五 武帝駕崩與繼承人之謎.mp3": {
+      "title": "王莽(五)︰武帝駕崩與繼承人之謎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160507 王莽 四 巫蠱之禍.mp3": {
+      "title": "王莽(四)︰巫蠱之禍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160430 王莽 三 武帝集權.mp3": {
+      "title": "王莽(三)︰武帝集權",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160423 王莽 二 罷黜百家 獨尊儒術.mp3": {
+      "title": "王莽(二)︰罷黜百家 獨尊儒術",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160416 王莽 一 時代理想的受害者.mp3": {
+      "title": "王莽(一)︰時代理想的受害者",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160409 史太林 九 去史太林化.mp3": {
+      "title": "史太林(九)︰去史太林化",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160402 史太林 八 冷戰下的蘇聯.mp3": {
+      "title": "史太林(八)︰冷戰下的蘇聯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160326 史太林 七 衛國戰爭.mp3": {
+      "title": "史太林(七)︰衛國戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160319 史太林 六 肅反大清洗與個人崇拜.mp3": {
+      "title": "史太林(六)︰肅反大清洗與個人崇拜",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160312 史太林 五 計劃經濟的成敗.mp3": {
+      "title": "史太林(五)︰計劃經濟的成敗",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160305 史太林 四 布哈林與蘇聯五年計劃.mp3": {
+      "title": "史太林(四)︰布哈林與蘇聯五年計劃",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160227 史太林 三 列寧以後的政治鬥爭.mp3": {
+      "title": "史太林(三)︰列寧以後的政治鬥爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160220 史太林 二 參加革命.mp3": {
+      "title": "史太林(二)︰參加革命",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160213 史太林 一 鋼鐵的人.mp3": {
+      "title": "史太林(一)︰鋼鐵的人",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160206 成吉思汗 十二 遺計滅金.mp3": {
+      "title": "成吉思汗(十二)︰遺計滅金",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160130 成吉思汗 十一 召見丘處機.mp3": {
+      "title": "成吉思汗(十一)︰召見丘處機",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160123 成吉思汗 十 橫掃金朝.mp3": {
+      "title": "成吉思汗(十)︰橫掃金朝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160116 成吉思汗 九 長子西征.mp3": {
+      "title": "成吉思汗(九)︰長子西征",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160109 成吉思汗 八 屠殺花剌子模.mp3": {
+      "title": "成吉思汗(八)︰屠殺花剌子模",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2016/古今風雲人物 20160102 成吉思汗 七 西域稱雄.mp3": {
+      "title": "成吉思汗(七)︰西域稱雄",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151226 成吉思汗 六 草原霸者 成吉思汗.mp3": {
+      "title": "成吉思汗(六)︰草原霸者——成吉思汗",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151219 成吉思汗 五 攻滅塔塔兒.mp3": {
+      "title": "成吉思汗(五)︰攻滅塔塔兒",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151212 成吉思汗 四 十三翼之戰.mp3": {
+      "title": "成吉思汗(四)︰十三翼之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151205 成吉思汗 三 復興家族.mp3": {
+      "title": "成吉思汗(三)︰復興家族",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151128 成吉思汗 二 部落衝突.mp3": {
+      "title": "成吉思汗(二)︰部落衝突",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151121 成吉思汗 一 游牧民族與草原文化.mp3": {
+      "title": "成吉思汗(一)︰游牧民族與草原文化",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151114 朴正熙 十四 遇刺身亡.mp3": {
+      "title": "朴正熙(十四)︰遇刺身亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151107 朴正熙 十三 漢江奇蹟.mp3": {
+      "title": "朴正熙(十三)︰漢江奇蹟",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151031 朴正熙 十二 獨裁統治.mp3": {
+      "title": "朴正熙(十二)︰獨裁統治",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151024 朴正熙 十一 韓日建交.mp3": {
+      "title": "朴正熙(十一)︰韓日建交",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151017 朴正熙 十 民選總統.mp3": {
+      "title": "朴正熙(十)︰民選總統",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151010 朴正熙 九 軍事政變.mp3": {
+      "title": "朴正熙(九)︰軍事政變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20151003 朴正熙 八 李承晚下台.mp3": {
+      "title": "朴正熙(八)︰李承晚下台",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150926 朴正熙 七 韓戰三年.mp3": {
+      "title": "朴正熙(七)︰韓戰三年",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150919 朴正熙 六 南北分裂.mp3": {
+      "title": "朴正熙(六)︰南北分裂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150912 朴正熙 五 軍旅生涯.mp3": {
+      "title": "朴正熙(五)︰軍旅生涯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150905 朴正熙 四 投筆從戎.mp3": {
+      "title": "朴正熙(四)︰投筆從戎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150829 朴正熙 三 李朝滅亡.mp3": {
+      "title": "朴正熙(三)︰李朝滅亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150822 朴正熙 二 中日磨心.mp3": {
+      "title": "朴正熙(二)︰中日磨心",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150815 朴正熙 一 朝鮮始源.mp3": {
+      "title": "朴正熙(一)︰朝鮮始源",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150808 鄭和 十四 歷史考究.mp3": {
+      "title": "鄭和(十四)︰歷史考究",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150801 鄭和 十三 七下西洋.mp3": {
+      "title": "鄭和(十三)︰七下西洋",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150725 鄭和 十二 揚威西洋.mp3": {
+      "title": "鄭和(十二)︰揚威西洋",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150718 鄭和 十一 遍遊南洋.mp3": {
+      "title": "鄭和(十一)︰遍遊南洋",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150711 鄭和 十 寶船艦隊.mp3": {
+      "title": "鄭和(十)︰寶船艦隊",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150704 鄭和 九 初下西洋.mp3": {
+      "title": "鄭和(九)︰初下西洋",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150627 鄭和 八 鄭和出航.mp3": {
+      "title": "鄭和(八)︰鄭和出航",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150620 鄭和 七 靖難之變.mp3": {
+      "title": "鄭和(七)︰靖難之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150613 鄭和 六 朱棣起兵.mp3": {
+      "title": "鄭和(六)︰朱棣起兵",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150606 鄭和 五 太子早逝.mp3": {
+      "title": "鄭和(五)︰太子早逝",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150530 鄭和 四 燕王府僕.mp3": {
+      "title": "鄭和(四)︰燕王府僕",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150523 鄭和 三 宮廷宦官.mp3": {
+      "title": "鄭和(三)︰宮廷宦官",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150516 鄭和 二 明朝戰俘.mp3": {
+      "title": "鄭和(二)︰明朝戰俘",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150509 鄭和 一 海上絲綢之路.mp3": {
+      "title": "鄭和(一)︰海上絲綢之路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150502 洪秀全 十 天國滅亡.mp3": {
+      "title": "洪秀全(十)︰天國滅亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150425 洪秀全 九 洪秀全之死.mp3": {
+      "title": "洪秀全(九)︰洪秀全之死",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150418 洪秀全 八 湘淮奪江.mp3": {
+      "title": "洪秀全(八)︰湘淮奪江",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150411 洪秀全 七 列強介入.mp3": {
+      "title": "洪秀全(七)︰列強介入",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150404 洪秀全 六 天京事變.mp3": {
+      "title": "洪秀全(六)︰天京之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150328 洪秀全 五 湘勇討賊.mp3": {
+      "title": "洪秀全(五)︰湘勇討賊",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150321 洪秀全 四 攻陷南京.mp3": {
+      "title": "洪秀全(四)︰攻陷南京",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150314 洪秀全 三 太平天國.mp3": {
+      "title": "洪秀全(三)︰太平天國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150307 洪秀全 二 拜上帝教.mp3": {
+      "title": "洪秀全(二)︰拜上帝教",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150228 洪秀全 一 府試落第.mp3": {
+      "title": "洪秀全(一)︰府試落第",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150221 朗奴 列根 十二 勝利的基礎.mp3": {
+      "title": "朗奴 列根(十二)︰勝利的基礎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150214 朗奴 列根 十一 星戰計劃.mp3": {
+      "title": "朗奴 列根(十一)︰星戰計劃",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150207 朗奴 列根 十 反共外交.mp3": {
+      "title": "朗奴 列根(十)︰反共外交",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150131 朗奴 列根 九 列根經濟學.mp3": {
+      "title": "朗奴 列根(九)︰列根經濟學",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150124 朗奴 列根 八 伊朗門事件.mp3": {
+      "title": "朗奴 列根(八)︰伊朗門事件",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150117 朗奴 列根 七 卡特年代.mp3": {
+      "title": "朗奴 列根(七)︰卡特年代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150110 朗奴 列根 六 水門事件.mp3": {
+      "title": "朗奴 列根(六)︰水門事件",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2015/古今風雲人物 20150103 朗奴 列根 五 血腥星期四.mp3": {
+      "title": "朗奴 列根(五)︰血腥星期四",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141227 朗奴 列根 四 越南戰爭.mp3": {
+      "title": "朗奴 列根(四)︰越南戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141220 朗奴 列根 三 古巴導彈危機.mp3": {
+      "title": "朗奴 列根(三)︰古巴導彈危機",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141213 朗奴 列根 二 麥卡錫時代.mp3": {
+      "title": "朗奴 列根(二)︰麥卡錫時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141206 朗奴 列根 一 荷里活影星.mp3": {
+      "title": "朗奴 列根(一)︰荷里活影星",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141129 曹操 十四 繼位之爭.mp3": {
+      "title": "曹操(十四)︰繼位之爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141122 曹操 十三 進封魏王.mp3": {
+      "title": "曹操(十三)︰進封魏王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141115 曹操 十二 火燒赤壁.mp3": {
+      "title": "曹操(十二)︰火燒赤壁",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141108 曹操 十一 赤壁之戰.mp3": {
+      "title": "曹操(十一)︰赤壁之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141101 曹操 十 官渡之戰.mp3": {
+      "title": "曹操(十)︰官渡之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141025 曹操 九 袁曹決裂.mp3": {
+      "title": "曹操(九)︰袁曹決裂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141018 曹操 八 張繡叛變.mp3": {
+      "title": "曹操(八)︰張繡叛變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141011 曹操 七 獻帝出奔.mp3": {
+      "title": "曹操(七)︰獻帝出奔",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20141004 曹操 六 袁紹之路.mp3": {
+      "title": "曹操(六)︰袁紹之路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140927 曹操 五 討伐董卓.mp3": {
+      "title": "曹操(五)︰討伐董卓",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140920 曹操 四 董卓進京.mp3": {
+      "title": "曹操(四)︰董卓進京",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140913 曹操 三 黃巾之亂.mp3": {
+      "title": "曹操(三)︰黃巾之亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140906 曹操 二 東漢末年.mp3": {
+      "title": "曹操(二)︰東漢末年",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140830 曹操 一 宦官之後.mp3": {
+      "title": "曹操(一)︰宦官之後",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140823 梁啟超 十八 國學現代化.mp3": {
+      "title": "梁啟超(十八)︰國學現代化",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140816 梁啟超 十七 棄政從學.mp3": {
+      "title": "梁啟超(十七)︰棄政從學",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140809 梁啟超 十六 政壇起伏.mp3": {
+      "title": "梁啟超(十六)︰政壇起伏",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140802 梁啟超 十五 武昌起義.mp3": {
+      "title": "梁啟超(十五)︰武昌起義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140726 梁啟超 十四 新大陸遊記.mp3": {
+      "title": "梁啟超(十四)︰新大陸遊記",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140719 梁啟超 十三 流亡日本.mp3": {
+      "title": "梁啟超(十三)︰流亡日本",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140712 梁啟超 十二 戊戌政變.mp3": {
+      "title": "梁啟超(十二)︰戊戌政變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140705 梁啟超 十一 維新失敗.mp3": {
+      "title": "梁啟超(十一)︰維新失敗",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140628 梁啟超 十 百日維新.mp3": {
+      "title": "梁啟超(十)︰百日維新",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140621 梁啟超 九 光緒求賢.mp3": {
+      "title": "梁啟超(九)︰光緒求賢",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140614 梁啟超 八 瓜分中國.mp3": {
+      "title": "梁啟超(八)︰瓜分中國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140607 梁啟超 七 時務學堂.mp3": {
+      "title": "梁啟超(七)︰時務學堂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140531 梁啟超 六 時務報.mp3": {
+      "title": "梁啟超(六)︰時務報",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140524 梁啟超 五 強學會.mp3": {
+      "title": "梁啟超(五)︰強學會",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140517 梁啟超 四 公車上書.mp3": {
+      "title": "梁啟超(四)︰公車上書",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140510 梁啟超 三 甲午戰爭.mp3": {
+      "title": "梁啟超(三)︰甲午戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140503 梁啟超 二 師承康有為.mp3": {
+      "title": "梁啟超(二)︰師承康有為",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140426 梁啟超 一 新會舉人.mp3": {
+      "title": "梁啟超(一)︰新會舉人",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140419 邱吉爾 十 告別內閣.mp3": {
+      "title": "邱吉爾(十)︰告別內閣",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140412 邱吉爾 九 第二次世界大戰.mp3": {
+      "title": "邱吉爾(九)︰第二次世界大戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140405 邱吉爾 八 希特拉的野心.mp3": {
+      "title": "邱吉爾(八)︰希特拉的野心",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140329 邱吉爾 七 重回保守黨.mp3": {
+      "title": "邱吉爾(七)︰重回保守黨",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140322 邱吉爾 六 歐洲戰後重建與英國工黨崛起.mp3": {
+      "title": "邱吉爾(六)︰歐洲戰後重建與英國工黨崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140315 邱吉爾 五 達達尼爾海戰.mp3": {
+      "title": "邱吉爾(五)︰達達尼爾海戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140308 邱吉爾 四 邱吉爾與第一次世界大戰.mp3": {
+      "title": "邱吉爾(四)︰邱吉爾與第一次世界大戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140301 邱吉爾 三 世紀之交.mp3": {
+      "title": "邱吉爾(三)︰世紀之交",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140222 邱吉爾 二 好戰的少年.mp3": {
+      "title": "邱吉爾(二)︰好戰的少年",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140215 邱吉爾 一 日不落國.mp3": {
+      "title": "邱吉爾(一)︰日不落國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140208 宋太祖 宋太宗 十二 科舉取士.mp3": {
+      "title": "宋太祖 宋太宗(十二)︰科舉取士",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140201 宋太祖 宋太宗 十一 重文輕武.mp3": {
+      "title": "宋太祖 宋太宗(十一)︰重文輕武",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140125 宋太祖 宋太宗 十 繼位風波.mp3": {
+      "title": "宋太祖 宋太宗(十)︰繼位風波",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140118 宋太祖 宋太宗 九 敗走高梁河.mp3": {
+      "title": "宋太祖 宋太宗(九)︰敗走高梁河",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140111 宋太祖 宋太宗 八 燭影斧聲.mp3": {
+      "title": "宋太祖 宋太宗(八)︰燭影斧聲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2014/古今風雲人物 20140104 宋太祖 宋太宗 七 金匱之盟.mp3": {
+      "title": "宋太祖 宋太宗(七)︰金匱之盟",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131228 宋太祖 宋太宗 六 兄弟矛盾.mp3": {
+      "title": "宋太祖 宋太宗(六)︰兄弟矛盾",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131221 宋太祖 宋太宗 五 宋軍南征.mp3": {
+      "title": "宋太祖 宋太宗(五)︰宋軍南征",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131214 宋太祖 宋太宗 四 杯酒釋兵權.mp3": {
+      "title": "宋太祖 宋太宗(四)︰杯酒釋兵權",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131207 宋太祖 宋太宗 三 陳橋兵變.mp3": {
+      "title": "宋太祖 宋太宗(三)︰陳橋兵變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131130 宋太祖 宋太宗 二 匡胤得勢.mp3": {
+      "title": "宋太祖 宋太宗(二)︰匡胤得勢",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131123 宋太祖 宋太宗 一 宋家家世.mp3": {
+      "title": "宋太祖 宋太宗(一)︰宋家家世",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131116 楊家將 八 楊門後代.mp3": {
+      "title": "楊家將(八)︰楊門後代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131109 楊家將 七 楊業昭雪.mp3": {
+      "title": "楊家將(七)︰楊業昭雪",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131102 楊家將 六 令公殉國.mp3": {
+      "title": "楊家將(六)︰令公殉國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131026 楊家將 五 太宗伐遼.mp3": {
+      "title": "楊家將(五)︰太宗伐遼",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131019 楊家將 四 楊業降宋.mp3": {
+      "title": "楊家將(四)︰楊業降宋",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131012 楊家將 三 建立大遼.mp3": {
+      "title": "楊家將(三)︰建立大遼",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20131005 楊家將 二 契丹崛起.mp3": {
+      "title": "楊家將(二)︰契丹崛起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130928 楊家將 一 五代十國.mp3": {
+      "title": "楊家將(一)︰五代十國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130921 拿破崙 十 維也納和會.mp3": {
+      "title": "拿破崙(十)︰維也納和會",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130914 拿破崙 九 滑鐵盧.mp3": {
+      "title": "拿破崙(九)︰滑鐵盧",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130907 拿破崙 八 敗走俄羅斯.mp3": {
+      "title": "拿破崙(八)︰敗走俄羅斯",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130831 拿破崙 七 三皇會戰.mp3": {
+      "title": "拿破崙(七)︰三皇會戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130824 拿破崙 六 加冕為王.mp3": {
+      "title": "拿破崙(六)︰加冕為王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130817 拿破崙 五 執掌議會.mp3": {
+      "title": "拿破崙(五)︰執掌議會",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130810 拿破崙 四 拿破崙的軍事策略.mp3": {
+      "title": "拿破崙(四)︰拿破崙的軍事策略",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130803 拿破崙 三 路易十六之死.mp3": {
+      "title": "拿破崙(三)︰路易十六之死",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130720 拿破崙 二 法國大革命.mp3": {
+      "title": "拿破崙(二)︰法國大革命",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130713 拿破崙 一 少年時代.mp3": {
+      "title": "拿破崙(一)︰少年時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130706 朱元璋 十二 分封諸王.mp3": {
+      "title": "朱元璋(十二)︰分封諸王",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130629 朱元璋 十一 誅殺功臣.mp3": {
+      "title": "朱元璋(十一)︰誅殺功臣",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130622 朱元璋 十 嚴懲貪官.mp3": {
+      "title": "朱元璋(十)︰嚴懲貪官",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130615 朱元璋 九 洪武治績.mp3": {
+      "title": "朱元璋(九)︰洪武治績",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130608 朱元璋 八 收復中原.mp3": {
+      "title": "朱元璋(八)︰收復中原",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130601 朱元璋 七 滅張伐元.mp3": {
+      "title": "朱元璋(七)︰滅張伐元",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130525 朱元璋 六 鄱陽湖戰.mp3": {
+      "title": "朱元璋(六)︰鄱陽湖戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130518 朱元璋 五 張良 劉基.mp3": {
+      "title": "朱元璋(五)︰「張良」劉基",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130511 朱元璋 四 腹背受敵.mp3": {
+      "title": "朱元璋(四)︰腹背受敵",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130504 朱元璋 三 人才集結.mp3": {
+      "title": "朱元璋(三)︰人才集結",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130427 朱元璋 二 反元起義.mp3": {
+      "title": "朱元璋(二)︰反元起義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130420 朱元璋 一 元末政局.mp3": {
+      "title": "朱元璋(一)︰元末政局",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130419 德川家康 十 德川幕府的結束.mp3": {
+      "title": "德川家康(十)︰德川幕府的結束",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130412 德川家康 九 德川幕府的業績.mp3": {
+      "title": "德川家康(九)︰德川幕府的業績",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130405 德川家康 八 消滅豐臣秀賴.mp3": {
+      "title": "德川家康(八)︰消滅豐臣秀賴",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130329 德川家康 七 關原之戰.mp3": {
+      "title": "德川家康(七)︰關原之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130322 德川家康 六 萬曆朝鮮之役.mp3": {
+      "title": "德川家康(六)︰萬曆朝鮮之役",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130315 德川家康 五 豐臣秀吉稱關白.mp3": {
+      "title": "德川家康(五)︰豐臣秀吉稱關白",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130308 德川家康 四 本能寺之變.mp3": {
+      "title": "德川家康(四)︰本能寺之變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130301 德川家康 三 姊川合戰 及 三方原合戰.mp3": {
+      "title": "德川家康(三)︰姊川合戰及三方原合戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130222 德川家康 二 日本戰國時期.mp3": {
+      "title": "德川家康(二)︰日本戰國時期",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130215 德川家康 一 日本幕府時代.mp3": {
+      "title": "德川家康(一)︰日本幕府時代",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130208 武則天 十 對後世的影響.mp3": {
+      "title": "武則天(十)︰對後世的影響",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130201 武則天 九 晚年局勢.mp3": {
+      "title": "武則天(九)︰晚年局勢",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130125 武則天 八 主要政績.mp3": {
+      "title": "武則天(八)︰主要政績",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130118 武則天 七 篡位風雲.mp3": {
+      "title": "武則天(七)︰篡位風雲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130111 武則天 六 骨肉相殘.mp3": {
+      "title": "武則天(六)︰骨肉相殘",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2013/古今風雲人物 20130104 武則天 五 改革朝政.mp3": {
+      "title": "武則天(五)︰改革朝政",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121228 武則天 四 后妃之爭.mp3": {
+      "title": "武則天(四)︰后妃之爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121221 武則天 三 宮廷鬥爭.mp3": {
+      "title": "武則天(三)︰宮廷鬥爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121214 武則天 二 胡族背景.mp3": {
+      "title": "武則天(二)︰胡族背景",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121207 武則天 一 身世考究.mp3": {
+      "title": "武則天(一)︰身世考究",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121130 雍正皇帝 十 死因之謎.mp3": {
+      "title": "雍正皇帝(十)︰死因之謎",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121123 雍正皇帝 九 主要政績.mp3": {
+      "title": "雍正皇帝(九)︰主要政績",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121116 雍正皇帝 八 剷除後患 二.mp3": {
+      "title": "雍正皇帝(八)︰剷除後患（下）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121109 雍正皇帝 七 剷除後患 一.mp3": {
+      "title": "雍正皇帝(七)︰剷除後患（上）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121102 雍正皇帝 六 繼位之謎 二.mp3": {
+      "title": "雍正皇帝(六)︰繼位之謎（下）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121026 雍正皇帝 五 繼位之謎.mp3": {
+      "title": "雍正皇帝(五)︰繼位之謎（上）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121019 雍正皇帝 四 繼位人選.mp3": {
+      "title": "雍正皇帝(四)︰繼位人選",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121012 雍正皇帝 三 儲位爭奪戰.mp3": {
+      "title": "雍正皇帝(三)︰儲位爭奪戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20121005 雍正皇帝 二 康熙廢太子.mp3": {
+      "title": "雍正皇帝(二)︰康熙廢太子",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120928 雍正皇帝 一 身世考究.mp3": {
+      "title": "雍正皇帝(一)︰身世考究",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120921 威廉大帝 十 政壇末路.mp3": {
+      "title": "威廉大帝(十)︰政壇末路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120914 威廉大帝 九 擴張大計.mp3": {
+      "title": "威廉大帝(九)︰擴張大計",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120907 威廉大帝 八 統一德國後的局面.mp3": {
+      "title": "威廉大帝(八)︰統一德國後的局面",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120831 威廉大帝 七 普法戰爭.mp3": {
+      "title": "威廉大帝(七)︰普法戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120824 威廉大帝 六 鐵血政策.mp3": {
+      "title": "威廉大帝(六)︰鐵血政策",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120817 威廉大帝 五 卑斯麥協助.mp3": {
+      "title": "威廉大帝(五)︰卑斯麥協助",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120810 威廉大帝 四 普魯士改革.mp3": {
+      "title": "威廉大帝(四)︰普魯士改革",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120803 威廉大帝 三 拿破崙觸發德國統一.mp3": {
+      "title": "威廉大帝(三)︰拿破崙觸發德國統一",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120727 威廉大帝 二 普魯士的興起.mp3": {
+      "title": "威廉大帝(二)︰普魯士的興起",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120720 威廉大帝 一 羅馬帝國.mp3": {
+      "title": "威廉大帝(一)︰神聖羅馬帝國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120713 林肯 十 遇刺身亡.mp3": {
+      "title": "林肯(十)︰遇刺身亡",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120706 林肯 九 解放黑奴.mp3": {
+      "title": "林肯(九)︰解放黑奴",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120629 林肯 八 南北戰爭 三.mp3": {
+      "title": "林肯(八)︰南北戰爭（下）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120622 林肯 七 南北戰爭 二.mp3": {
+      "title": "林肯(七)︰南北戰爭（中）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120615 林肯 六 南北戰爭 一.mp3": {
+      "title": "林肯(六)︰南北戰爭（上）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120608 林肯 五 南北矛盾.mp3": {
+      "title": "林肯(五)︰南北矛盾",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120530 林肯 四 當選聯邦眾議員.mp3": {
+      "title": "林肯(四)︰當選聯邦眾議員",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120523 林肯 三 從政之路.mp3": {
+      "title": "林肯(三)︰從政之路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120516 林肯 二 美國獨立戰爭.mp3": {
+      "title": "林肯(二)︰美國獨立戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120509 林肯 一 身世考究.mp3": {
+      "title": "林肯(一)︰身世考究",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120502 袁世凱 十六 復辟帝制.mp3": {
+      "title": "袁世凱(十六)︰復辟帝制",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120425 袁世凱 十五 內閣風雲.mp3": {
+      "title": "袁世凱(十五)︰內閣風雲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120418 袁世凱 十四 當選臨時大總統.mp3": {
+      "title": "袁世凱(十四)︰當選臨時大總統",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120411 袁世凱 十三 皇族內閣及武昌起義.mp3": {
+      "title": "袁世凱(十三)︰皇族內閣及武昌起義",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120404 袁世凱 十二 預備立憲.mp3": {
+      "title": "袁世凱(十二)︰預備立憲",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120330 袁世凱 十一 備受重用.mp3": {
+      "title": "袁世凱(十一)︰備受重用",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120328 袁世凱 十 八國聯軍.mp3": {
+      "title": "袁世凱(十)︰八國聯軍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120323 袁世凱 九 義和團之亂.mp3": {
+      "title": "袁世凱(九)︰義和團之亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120321 袁世凱 八 戊戌政變.mp3": {
+      "title": "袁世凱(八)︰戊戌政變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120316 袁世凱 七 戊戌變法.mp3": {
+      "title": "袁世凱(七)︰戊戌變法",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120314 袁世凱 六 新建陸軍.mp3": {
+      "title": "袁世凱(六)︰新建陸軍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120309 袁世凱 五 甲午戰爭.mp3": {
+      "title": "袁世凱(五)︰甲午戰爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120307 袁世凱 四 緊急回國.mp3": {
+      "title": "袁世凱(四)︰緊急回國",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120302 袁世凱 三 留駐朝鮮.mp3": {
+      "title": "袁世凱(三)︰留駐朝鮮",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120229 袁世凱 二 朝鮮平亂.mp3": {
+      "title": "袁世凱(二)︰朝鮮平亂",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120224 袁世凱 一 身世考究.mp3": {
+      "title": "袁世凱(一)︰身世考究",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120222 安祿山 十 死後餘波.mp3": {
+      "title": "安祿山(十)︰死後餘波",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120217 安祿山 九 梟雄末路.mp3": {
+      "title": "安祿山(九)︰梟雄末路",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120215 安祿山 八 貴妃魂斷馬嵬驛.mp3": {
+      "title": "安祿山(八)︰貴妃魂斷馬嵬驛",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120210 安祿山 七 起兵造反.mp3": {
+      "title": "安祿山(七)︰起兵造反",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120208 安祿山 六 密謀叛唐.mp3": {
+      "title": "安祿山(六)︰密謀叛唐",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120203 安祿山 五 楊國忠擴展勢力.mp3": {
+      "title": "安祿山(五)︰楊國忠擴展勢力",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120201 安祿山 四 李林甫忌才.mp3": {
+      "title": "安祿山(四)︰李林甫忌才",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120127 安祿山 三 貴妃登場.mp3": {
+      "title": "安祿山(三)︰貴妃登場",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120125 安祿山 二 皇室門爭.mp3": {
+      "title": "安祿山(二)︰皇室門爭",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120120 安祿山 一 身世考究.mp3": {
+      "title": "安祿山(一)︰身世考究",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120118 岳飛 十二 沉冤得雪.mp3": {
+      "title": "岳飛(十二)︰沉冤得雪",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120113 岳飛 十一 岳飛被處死.mp3": {
+      "title": "岳飛(十一)︰岳飛被處死",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120111 岳飛 十 秦檜得勢.mp3": {
+      "title": "岳飛(十)︰秦檜得勢",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120106 岳飛 九 岳家軍.mp3": {
+      "title": "岳飛(九)︰岳家軍",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2012/古今風雲人物 20120104 岳飛 八 黃天蕩之役.mp3": {
+      "title": "岳飛(八)︰黃天蕩之役",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111230 岳飛 七 苖劉兵變.mp3": {
+      "title": "岳飛(七)︰苗劉兵變",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111228 岳飛 六 靖康之難 下.mp3": {
+      "title": "岳飛(六)︰靖康之難（下）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111223 岳飛 五 靖康之難 上.mp3": {
+      "title": "岳飛(五)︰靖康之難（上）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111221 岳飛 四 政治腐敗.mp3": {
+      "title": "岳飛(四)︰政治腐敗（下）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111219 岳飛 三 政治腐敗.mp3": {
+      "title": "岳飛(三)︰政治腐敗（上）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111214 岳飛 二 身世考究.mp3": {
+      "title": "岳飛(二)︰身世考究（下）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111209 岳飛 一 身世考究.mp3": {
+      "title": "岳飛(一)︰身世考究（上）",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111102 努爾哈赤 六.mp3": {
+      "title": "努爾哈赤(六)︰寧遠之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111028 努爾哈赤 五.mp3": {
+      "title": "努爾哈赤(五)︰薩爾滸之戰",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111026 努爾哈赤 四.mp3": {
+      "title": "努爾哈赤(四)︰八旗兵",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111021 努爾哈赤 三.mp3": {
+      "title": "努爾哈赤(三)︰十三副遺甲起兵",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111019 努爾哈赤 二.mp3": {
+      "title": "努爾哈赤(二)︰少年身世",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    },
+    "2011/古今風雲人物 20111014 努爾哈赤 一.mp3": {
+      "title": "努爾哈赤(一)︰滿洲起源",
+      "source": "https://zh.wikipedia.org/wiki/古今風雲人物"
+    }
+  },
+  "skipped_series": [
+    {
+      "subject": "蔣宋美齡與蔣家婦女",
+      "declared": "4集",
+      "topics": 0
+    },
+    {
+      "subject": "胡適",
+      "declared": "4集",
+      "topics": 0
+    },
+    {
+      "subject": "希特拉",
+      "declared": "4集",
+      "topics": 5
+    },
+    {
+      "subject": "秦始皇",
+      "declared": "4集",
+      "topics": 0
+    },
+    {
+      "subject": "魯迅",
+      "declared": "4集",
+      "topics": 0
+    },
+    {
+      "subject": "列寧",
+      "declared": "5集",
+      "topics": 0
+    },
+    {
+      "subject": "諸葛亮",
+      "declared": "8集",
+      "topics": 0
+    },
+    {
+      "subject": "明治天皇",
+      "declared": "8集",
+      "topics": 0
+    },
+    {
+      "subject": "曾國藩",
+      "declared": "8集",
+      "topics": 0
+    },
+    {
+      "subject": "維多利亞女王",
+      "declared": "10集",
+      "topics": 0
+    },
+    {
+      "subject": "伊本·巴圖達",
+      "declared": "播放中",
+      "topics": 2
+    }
+  ]
+}

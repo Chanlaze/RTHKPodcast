@@ -20,6 +20,7 @@ REPO_LINK = f"https://gitlab.com/{PROJECT}"
 RTHK_PROGRAMME_URL = "https://www.rthk.hk/radio/radio1/programme/People"
 OUTPUT = Path("people-in-history.xml")
 LOCAL_EPISODES = Path("rthk-2026-episodes.json")
+ARCHIVE_TITLES = Path(__file__).with_name("archive-episode-titles.json")
 SITE_ROOT = "https://chanlaze.github.io/RTHKPodcast"
 AUDIO_ROOT = "https://gitlab.com/chanlaze-group/Chanlaze-project/-/raw/main"
 ARTWORK_FILENAME = "people-in-history-cover.jpg"
@@ -149,6 +150,7 @@ def build_feed(
     )
 
     items: list[dict[str, object]] = []
+    archive_titles = json.loads(ARCHIVE_TITLES.read_text(encoding="utf-8"))["titles"] if ARCHIVE_TITLES.exists() else {}
     local_dates = {str(episode["date"]).replace("-", "") for episode in local_episodes}
     for entry in mp3_entries:
         path = entry["path"]
@@ -159,11 +161,12 @@ def build_feed(
         encoded_path = "/".join(urllib.parse.quote(part) for part in path.split("/"))
         encoded_branch = urllib.parse.quote(branch, safe="")
         audio_url = f"https://gitlab.com/{PROJECT}/-/raw/{encoded_branch}/{encoded_path}"
+        title = archive_titles.get(path, {}).get("title", clean_episode_title(raw_title))
         items.append(
             {
-                "title": clean_episode_title(raw_title),
-                "description": clean_episode_title(raw_title),
-                "summary": clean_episode_title(raw_title),
+                "title": title,
+                "description": title,
+                "summary": title,
                 "date_iso": pub_date.date().isoformat(),
                 "pub_date": pub_date,
                 "audio_url": audio_url,
