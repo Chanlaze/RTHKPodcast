@@ -6,8 +6,8 @@
     <language>zh-HK</language>
     <copyright>RTHK / archive sources hosted on GitHub and GitLab</copyright>
     <description>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</description>
-    <lastBuildDate>Fri, 25 Sep 2026 08:21:17 +0000</lastBuildDate>
-    <pubDate>Fri, 25 Sep 2026 08:21:17 +0000</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2026 22:07:04 +0000</lastBuildDate>
+    <pubDate>Sat, 26 Sep 2026 22:07:04 +0000</pubDate>
     <ttl>1440</ttl>
     <itunes:author>RTHK</itunes:author>
     <itunes:summary>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</itunes:summary>
@@ -20,6 +20,27 @@
       <link>https://chanlaze.github.io/RTHKPodcast</link>
     </image>
     <atom:link href="https://chanlaze.github.io/RTHKPodcast/people-in-history.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>伊本．巴圖達 (二)：埃及馬木留克王朝的法學家</title>
+      <description>日期：2026-09-26
+
+14世紀的埃及，正是由奴隸士兵建立馬木留克王朝。伊本·巴圖達的旅程恰逢蘇丹納西爾·穆罕默德的第三次統治。這位蘇丹從童年傀儡到親政大權獨攬，在位期間抵抗蒙古入侵，並推行行政改革。他在「開羅」建造了近百座清真寺與數十所學校，使這座城市成為伊斯蘭世界的文化與學術中心。當伊本·巴圖達抵達開羅時，正是這座城市的黃金時代。
+
+馬木留克王朝在伊斯蘭世界的角色舉足輕重：1260年的「艾因扎魯特戰役」，他們擊退蒙古；他們恢復了阿拔斯・哈里發制，使伊斯蘭世界重新擁有宗教合法性；作為歐亞貿易的中轉站，他們商業貿易發達；而開羅則成為知識與文化的燈塔。
+
+伊本·巴圖達的《遊記》，不僅記錄了他個人的漂泊，也為後世留下了14世紀馬木留克帝國珍貴的第一手資料。</description>
+      <link>https://www.rthk.hk/radio/radio1/programme/People/episode/1128194</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:date>2026-09-26</dc:date>
+      <itunes:title>伊本．巴圖達 (二)：埃及馬木留克王朝的法學家</itunes:title>
+      <itunes:summary>14世紀的埃及，正是由奴隸士兵建立馬木留克王朝。伊本·巴圖達的旅程恰逢蘇丹納西爾·穆罕默德的第三次統治。這位蘇丹從童年傀儡到親政大權獨攬，在位期間抵抗蒙古入侵，並推行行政改革。他在「開羅」建造了近百座清真寺與數十所學校，使這座城市成為伊斯蘭世界的文化與學術中心。當伊本·巴圖達抵達開羅時，正是這座城市的黃金時代。
+
+馬木留克王朝在伊斯蘭世界的角色舉足輕重：1260年的「艾因扎魯特戰役」，他們擊退蒙古；他們恢復了阿拔斯・哈里發制，使伊斯蘭世界重新擁有宗教合法性；作為歐亞貿易的中轉站，他們商業貿易發達；而開羅則成為知識與文化的燈塔。
+
+伊本·巴圖達的《遊記》，不僅記錄了他個人的漂泊，也為後世留下了14世紀馬木留克帝國珍貴的第一手資料。</itunes:summary>
+      <guid isPermaLink="false">https://chanlaze.github.io/RTHKPodcast/audio/2026/20260926.m4a</guid>
+      <enclosure url="https://gitlab.com/chanlaze-group/Chanlaze-project/-/raw/main/audio/2026/20260926%20%E4%BC%8A%E6%9C%AC%EF%BC%8E%E5%B7%B4%E5%9C%96%E9%81%94%20%28%E4%BA%8C%29%EF%BC%9A%E5%9F%83%E5%8F%8A%E9%A6%AC%E6%9C%A8%E7%95%99%E5%85%8B%E7%8E%8B%E6%9C%9D%E7%9A%84%E6%B3%95%E5%AD%B8%E5%AE%B6.m4a" length="10289146" type="audio/mp4" />
+    </item>
     <item>
       <title>伊本．巴圖達 (一)︰以雙腳丈量世界的穆斯林</title>
       <description>日期：2026-09-19
