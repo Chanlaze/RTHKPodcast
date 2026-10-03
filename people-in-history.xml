@@ -6,8 +6,8 @@
     <language>zh-HK</language>
     <copyright>RTHK / archive sources hosted on GitHub and GitLab</copyright>
     <description>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</description>
-    <lastBuildDate>Sat, 26 Sep 2026 22:07:04 +0000</lastBuildDate>
-    <pubDate>Sat, 26 Sep 2026 22:07:04 +0000</pubDate>
+    <lastBuildDate>Sat, 03 Oct 2026 22:04:23 +0000</lastBuildDate>
+    <pubDate>Sat, 03 Oct 2026 22:04:23 +0000</pubDate>
     <ttl>1440</ttl>
     <itunes:author>RTHK</itunes:author>
     <itunes:summary>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</itunes:summary>
@@ -20,6 +20,23 @@
       <link>https://chanlaze.github.io/RTHKPodcast</link>
     </image>
     <atom:link href="https://chanlaze.github.io/RTHKPodcast/people-in-history.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>伊本．巴圖達 (三)：安納托利亞與阿赫兄弟會</title>
+      <description>日期：2026-10-03
+
+1330至1332年左右，伊本・巴圖達從麥加出發，前往安納托利亞，即是今天的土耳其一帶。他的遊記詳細記述了他在阿蘭雅、安塔利亞、科尼亞等城市的觀察，而且極力讚美安納托利亞為「世上最美的國家之一」。土耳其人的英俊、整潔、美食和善良，都令他十分喜愛。他又特別注意到，土耳其婦女不戴面紗、社會地位高於男子的獨特現象。
+
+他的遊記亦詳細介紹了安納托利亞一個特有的半宗教性組織——阿赫兄弟會。組織成員白天工作賺錢，傍晚將所得的收入交給組織領袖統一管理，以購買食物和客棧的物資。有旅客時，組織會為其提供免費食宿；無客人時，成員會聚會用餐歌舞。伊本・巴圖達在25個以上的城鎮住過兄弟會的客棧，並稱他們為「世上最熱情歡迎陌生人的人」。</description>
+      <link>https://www.rthk.hk/radio/radio1/programme/People/episode/1131207</link>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:date>2026-10-03</dc:date>
+      <itunes:title>伊本．巴圖達 (三)：安納托利亞與阿赫兄弟會</itunes:title>
+      <itunes:summary>1330至1332年左右，伊本・巴圖達從麥加出發，前往安納托利亞，即是今天的土耳其一帶。他的遊記詳細記述了他在阿蘭雅、安塔利亞、科尼亞等城市的觀察，而且極力讚美安納托利亞為「世上最美的國家之一」。土耳其人的英俊、整潔、美食和善良，都令他十分喜愛。他又特別注意到，土耳其婦女不戴面紗、社會地位高於男子的獨特現象。
+
+他的遊記亦詳細介紹了安納托利亞一個特有的半宗教性組織——阿赫兄弟會。組織成員白天工作賺錢，傍晚將所得的收入交給組織領袖統一管理，以購買食物和客棧的物資。有旅客時，組織會為其提供免費食宿；無客人時，成員會聚會用餐歌舞。伊本・巴圖達在25個以上的城鎮住過兄弟會的客棧，並稱他們為「世上最熱情歡迎陌生人的人」。</itunes:summary>
+      <guid isPermaLink="false">https://chanlaze.github.io/RTHKPodcast/audio/2026/20261003.m4a</guid>
+      <enclosure url="https://gitlab.com/chanlaze-group/Chanlaze-project/-/raw/main/audio/2026/20261003%20%E4%BC%8A%E6%9C%AC%EF%BC%8E%E5%B7%B4%E5%9C%96%E9%81%94%20%28%E4%B8%89%29%EF%BC%9A%E5%AE%89%E7%B4%8D%E6%89%98%E5%88%A9%E4%BA%9E%E8%88%87%E9%98%BF%E8%B5%AB%E5%85%84%E5%BC%9F%E6%9C%83.m4a" length="10410667" type="audio/mp4" />
+    </item>
     <item>
       <title>伊本．巴圖達 (二)：埃及馬木留克王朝的法學家</title>
       <description>日期：2026-09-26
