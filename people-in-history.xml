@@ -6,8 +6,8 @@
     <language>zh-HK</language>
     <copyright>RTHK / archive sources hosted on GitHub and GitLab</copyright>
     <description>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</description>
-    <lastBuildDate>Sat, 03 Oct 2026 22:04:23 +0000</lastBuildDate>
-    <pubDate>Sat, 03 Oct 2026 22:04:23 +0000</pubDate>
+    <lastBuildDate>Sat, 10 Oct 2026 22:04:01 +0000</lastBuildDate>
+    <pubDate>Sat, 10 Oct 2026 22:04:01 +0000</pubDate>
     <ttl>1440</ttl>
     <itunes:author>RTHK</itunes:author>
     <itunes:summary>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</itunes:summary>
@@ -20,6 +20,27 @@
       <link>https://chanlaze.github.io/RTHKPodcast</link>
     </image>
     <atom:link href="https://chanlaze.github.io/RTHKPodcast/people-in-history.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>伊本．巴圖達 (四)：強大的金帳與衰落的拜占庭</title>
+      <description>日期：2026-10-10
+
+1332年左右，伊本・巴圖達抵達蒙古帝國四大汗國之一的欽察汗國，又稱為金帳汗國。這一位摩洛哥旅行家，覲見當時的統治者月即別汗。當時，月即別汗坐在一頂巨大帳篷中央的銀色寶座上，帳篷外層有一層閃亮的金瓦。他在遊記中這樣描述月即別：
+
+「尊崇的『蘇丹・穆罕默德・月即別汗』是遼闊王國的統治者，是最強大的君主，戰勝了上帝的敵人——君士坦丁堡大帝的子民，並勤勉地與他們作戰。」
+
+伊本・巴圖達將月即別列為當時世界七大強國之一，與摩洛哥蘇丹、埃及蘇丹、伊拉克蘇丹、突厥斯坦蘇丹、印度蘇丹和中國皇帝並列。</description>
+      <link>https://www.rthk.hk/radio/radio1/programme/People/episode/1131209</link>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:date>2026-10-10</dc:date>
+      <itunes:title>伊本．巴圖達 (四)：強大的金帳與衰落的拜占庭</itunes:title>
+      <itunes:summary>1332年左右，伊本・巴圖達抵達蒙古帝國四大汗國之一的欽察汗國，又稱為金帳汗國。這一位摩洛哥旅行家，覲見當時的統治者月即別汗。當時，月即別汗坐在一頂巨大帳篷中央的銀色寶座上，帳篷外層有一層閃亮的金瓦。他在遊記中這樣描述月即別：
+
+「尊崇的『蘇丹・穆罕默德・月即別汗』是遼闊王國的統治者，是最強大的君主，戰勝了上帝的敵人——君士坦丁堡大帝的子民，並勤勉地與他們作戰。」
+
+伊本・巴圖達將月即別列為當時世界七大強國之一，與摩洛哥蘇丹、埃及蘇丹、伊拉克蘇丹、突厥斯坦蘇丹、印度蘇丹和中國皇帝並列。</itunes:summary>
+      <guid isPermaLink="false">https://chanlaze.github.io/RTHKPodcast/audio/2026/20261010.m4a</guid>
+      <enclosure url="https://gitlab.com/chanlaze-group/Chanlaze-project/-/raw/main/audio/2026/20261010%20%E4%BC%8A%E6%9C%AC%EF%BC%8E%E5%B7%B4%E5%9C%96%E9%81%94%20%28%E5%9B%9B%29%EF%BC%9A%E5%BC%B7%E5%A4%A7%E7%9A%84%E9%87%91%E5%B8%B3%E8%88%87%E8%A1%B0%E8%90%BD%E7%9A%84%E6%8B%9C%E5%8D%A0%E5%BA%AD.m4a" length="10778532" type="audio/mp4" />
+    </item>
     <item>
       <title>伊本．巴圖達 (三)：安納托利亞與阿赫兄弟會</title>
       <description>日期：2026-10-03
