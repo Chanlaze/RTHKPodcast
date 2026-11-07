@@ -6,8 +6,8 @@
     <language>zh-HK</language>
     <copyright>RTHK / archive sources hosted on GitHub and GitLab</copyright>
     <description>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</description>
-    <lastBuildDate>Sat, 31 Oct 2026 22:00:21 +0000</lastBuildDate>
-    <pubDate>Sat, 31 Oct 2026 22:00:21 +0000</pubDate>
+    <lastBuildDate>Sat, 07 Nov 2026 22:04:56 +0000</lastBuildDate>
+    <pubDate>Sat, 07 Nov 2026 22:04:56 +0000</pubDate>
     <ttl>1440</ttl>
     <itunes:author>RTHK</itunes:author>
     <itunes:summary>RTHK 古今風雲人物 audio archive from the current RTHK programme and the public GitLab MP3 repository.</itunes:summary>
@@ -20,6 +20,27 @@
       <link>https://chanlaze.github.io/RTHKPodcast</link>
     </image>
     <atom:link href="https://chanlaze.github.io/RTHKPodcast/people-in-history.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>伊本．巴圖達 (八)︰出使中國元朝</title>
+      <description>日期：2026-11-07
+
+伊本·巴圖達約於1342年奉德里蘇丹圖格魯克之命，攜帶國書與禮物出使元朝中國。這次使命原欲經海路前往中國，但使團在印度洋遭遇船難，人員與禮物嚴重損失；伊本·巴圖達未能即時完成外交任務，其後輾轉經過南印度、馬爾代夫、錫蘭、孟加拉與東南亞，最終才抵達中國。
+
+伊本·巴圖達於1345年前後抵達刺桐，即是今日泉州市，並記述其為世界大港之一，商船雲集、穆斯林商人眾多，設有伊斯蘭社群與宗教設施。其後他前往廣州、杭州及大都，描述中國的城市規模、水路運輸、紙幣制度、驛站、瓷器、絲綢與治安體系。
+
+伊本·巴圖達的中國章節是14世紀少數由穆斯林旅行者留下的長篇中國觀察。它補充了《馬可孛羅遊記》等文本對元代城市、商業與交通制度的記述，尤其有助研究泉州的國際貿易、穆斯林社群及元朝的印度洋外交。</description>
+      <link>https://www.rthk.hk/radio/radio1/programme/People/episode/1137098</link>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:date>2026-11-07</dc:date>
+      <itunes:title>伊本．巴圖達 (八)︰出使中國元朝</itunes:title>
+      <itunes:summary>伊本·巴圖達約於1342年奉德里蘇丹圖格魯克之命，攜帶國書與禮物出使元朝中國。這次使命原欲經海路前往中國，但使團在印度洋遭遇船難，人員與禮物嚴重損失；伊本·巴圖達未能即時完成外交任務，其後輾轉經過南印度、馬爾代夫、錫蘭、孟加拉與東南亞，最終才抵達中國。
+
+伊本·巴圖達於1345年前後抵達刺桐，即是今日泉州市，並記述其為世界大港之一，商船雲集、穆斯林商人眾多，設有伊斯蘭社群與宗教設施。其後他前往廣州、杭州及大都，描述中國的城市規模、水路運輸、紙幣制度、驛站、瓷器、絲綢與治安體系。
+
+伊本·巴圖達的中國章節是14世紀少數由穆斯林旅行者留下的長篇中國觀察。它補充了《馬可孛羅遊記》等文本對元代城市、商業與交通制度的記述，尤其有助研究泉州的國際貿易、穆斯林社群及元朝的印度洋外交。</itunes:summary>
+      <guid isPermaLink="false">https://chanlaze.github.io/RTHKPodcast/audio/2026/20261107.m4a</guid>
+      <enclosure url="https://gitlab.com/chanlaze-group/Chanlaze-project/-/raw/main/audio/2026/20261107%20%E4%BC%8A%E6%9C%AC%EF%BC%8E%E5%B7%B4%E5%9C%96%E9%81%94%20%28%E5%85%AB%29%EF%B8%B0%E5%87%BA%E4%BD%BF%E4%B8%AD%E5%9C%8B%E5%85%83%E6%9C%9D.m4a" length="11090043" type="audio/mp4" />
+    </item>
     <item>
       <title>伊本．巴圖達 (七)︰女王統治的馬爾代夫</title>
       <description>日期：2026-10-31
