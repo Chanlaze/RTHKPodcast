@@ -1,0 +1,25 @@
+{
+  "display_name": "RTHK Podcast Daily",
+  "description": "Check official RTHK episodes daily at 06:00 Hong Kong time; publish edited audio to GitLab and the complete feed to GitHub.",
+  "builtin": "schedule",
+  "args": [
+    "CRON_TZ=Asia/Hong_Kong 0 6 * * *",
+    "agentapi",
+    "new-conversation",
+    "--",
+    "Work in ${repo_dir}. Read GEMINI.md and ANTIGRAVITY_HANDOVER.md before acting. Check for newly available episodes of RTHK 古今風雲人物 every day. Use the project's existing downloader and RTHK's underlying episode metadata and media sources to determine availability; do not rely only on the visible programme-page message because it may lag behind the actual audio release. Work in C:\\Users\\chanl\\OneDrive\\文件\\RTHKPodcast and compare discovered episodes with rthk-2026-episodes.json and people-in-history.xml. Before downloading or publishing, verify the complete Chinese title from the official episode metadata, including the subject, chapter number, and subtitle, and confirm that the topic is a regular programme chapter or a normal continuation of the current series rather than a promo, trailer, station announcement, placeholder, repeat, or unrelated/special item. Capture the official broadcast date. Capture the official full programme notes when available, but missing or generic notes alone must not block publication once the title, date, regular-topic status, audio, and trimming boundaries are confirmed. For each valid new episode, run the existing downloader. It must retain the untouched download in .tools/audio-originals as the backup and publish a separate podcast-ready copy under audio/2026 only after both boundaries are confirmed: remove everything before the approved recurring programme intro and everything from the closing six-tone signal onward. If the audio already starts at the approved intro, keep the start and trim only the tail. Never link an original or partially edited recording in the XML. If either boundary, the audio, title, date, or regular-topic status cannot be confirmed, report the issue in this dedicated monitoring chat and leave the feed unchanged. Update rthk-2026-episodes.json, then run python publish_gitlab_audio.py to upload the catalogued podcast-ready copies to https://gitlab.com/chanlaze-group/Chanlaze-project on main and verify public ranged downloads and file sizes. Original backups must never be uploaded. Stop without publishing the feed if audio upload or verification fails. Only after GitLab verification succeeds, regenerate people-in-history.xml. Validate that the XML parses, every new enclosure points to its edited GitLab copy, every new episode has its untouched local backup, existing episode GUIDs remain stable, and the item count increases only by the number of genuinely new episodes. Commit metadata, the complete XML feed and relevant source changes to GitHub master; do not commit new audio to GitHub. Preserve existing GitHub audio for cached old links. Verify the live GitHub Pages feed and new GitLab audio URL. If there is no new valid episode, make no files, commit, or push, and stay quiet unless there is a meaningful change, failure, or required user action. Preserve unrelated working-tree changes and never overwrite user work. Use only the official RTHK episode page and its underlying metadata for new episode titles, broadcast dates, and programme notes. The Wikipedia title backfill was a one-off exercise: do not visit Wikipedia or rerun import_wikipedia_titles.py during daily checks. Preserve the saved archive-episode-titles.json catalogue when rebuilding the feed, without refreshing it from Wikipedia. Keep Codex monitoring disabled. Preserve a shared local results log for meaningful changes or failures at .tools/antigravity-daily-results.jsonl. Run only one publisher at a time."
+  ],
+  "arguments": [
+    {
+      "key": "repo_dir",
+      "description": "Select the existing RTHKPodcast folder containing GEMINI.md and the local .tools backups.",
+      "workspace_arg": {}
+    }
+  ],
+  "agent_permissions": {
+    "workspace_uris": [
+      "${repo_dir}"
+    ],
+    "access_grants": []
+  }
+}
